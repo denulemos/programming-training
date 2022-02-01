@@ -20,3 +20,8 @@ Tabla del 5
 
 **Ejercicio 2**
 
+Dado un String comprobar si es un palindromo o no (se leen igual del derecho y del revés), por ejemplo Bob, Pop, etc...
+No tener en cuenta espacios ni simbolos.
+
+* Input: "otto"
+* Output: `true`
