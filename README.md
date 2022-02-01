@@ -103,4 +103,8 @@ Dado un String y una busqueda, censurar las coincidencias de la busqueda en el S
 Si ambos llegan vacios, devolver un "No se puede leer el texto y la busqueda". Y si llega un solo parametro, devolver "No se puede hacer la busqueda"
 
 * Input: `('holi como va', 'holi)` -- Frase y palabra a censurar
-* Output: `[-CENSURADO-] como va`
+* Output: `[-CENSURADO-] como va` 
+
+### Ejercio 12 
+
+TODO
