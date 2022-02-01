@@ -1,16 +1,22 @@
 # Ejercicios Logica de Programacion
+
 **Work in Progress**
+
+**Give me a coffee!** https://cafecito.app/denolemon
 
 En este repositorio encontrarás diversos ejercicios de logica resueltos con Javascript. Son ejercicios comunes de entrevistas tecnicas y pruebas tecnicas.
 
 ## Ejercicios
-El orden no tiene ninguna razon en especifico. Para ejecutar cada ejercicio se debe hacer `node ejercicioX` en la terminal. 
+
+El orden no tiene ninguna razon en especifico. Para ejecutar cada ejercicio se debe hacer `node ejercicioX` en la terminal.
 
 ### Ejercicio 1
+
 Dado un numero devolver su tabla de multiplicar completa. Por ejemplo:
 
 * Input: `5`
 * Output:
+
 ```javascript
 Tabla del 5
 5 x 1 = 5
@@ -103,8 +109,39 @@ Dado un String y una busqueda, censurar las coincidencias de la busqueda en el S
 Si ambos llegan vacios, devolver un "No se puede leer el texto y la busqueda". Y si llega un solo parametro, devolver "No se puede hacer la busqueda"
 
 * Input: `('holi como va', 'holi)` -- Frase y palabra a censurar
-* Output: `[-CENSURADO-] como va` 
+* Output: `[-CENSURADO-] como va`
 
-### Ejercio 12 
+### Ejercio 12
 
-TODO
+Dado un numero mostrar todos los numeros desde ese al 0 de 8 en 8 en una lista con guiones y cada numero debe empezar por "n"
+
+* Input: `100`
+* Output:
+
+```javascript
+-n 100
+-n 92
+-n 84
+etc..
+```
+
+### Ejercio 13
+
+Dado un array, dividirlo en tantos sub-arrays como sea necesario basandonos en un numero que indique su tamaño.
+
+* Input: `([1,2,3,4], 2)` -- Array y tamaño de divisiones
+* Output: `([1,2], [3,4])`
+
+### Ejercio 14
+
+Dado un String y un numero, repetir el String las veces que diga el numero
+
+* Input: `('denu', 2)` -- Palabra y veces que se debe repetir
+* Output: `'denu' 'denu'`
+
+### Ejercio 15 (TODO)
+
+Dado un String devolver el caracter mas usado.
+
+* Input: `denuuu`
+* Output: `u`
