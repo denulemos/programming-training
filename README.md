@@ -139,9 +139,13 @@ Dado un String y un numero, repetir el String las veces que diga el numero
 * Input: `('denu', 2)` -- Palabra y veces que se debe repetir
 * Output: `'denu' 'denu'`
 
-### Ejercio 15 (TODO)
+### Ejercio 15
 
 Dado un String devolver el caracter mas usado.
 
 * Input: `denuuu`
 * Output: `u`
+
+### Ejercio 16
+
+TODO
