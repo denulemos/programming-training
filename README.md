@@ -62,3 +62,45 @@ Dibujar un cuadrado hueco con astericos en consola con el tamaño de lados que d
   * ** * 
 ```
 
+### Ejercicio 7
+
+Dados dos numeros, devolver cuantos numeros impares hay ENTRE ellos
+
+* Input: `(1, 100)`
+* Output: `49`
+
+### Ejercicio 8
+
+Con un numero entero, invertirlo y devolverlo dado vuelta.
+
+* Input: `56`
+* Output: `65`
+
+### Ejercicio 9
+
+Dados dos array devolver un array con los elementos comunes entre ambos sin duplicados
+
+* Input: `([1,2,3], [3,2,5,6])`
+* Output: `[2,3]`
+
+### Ejercicio 10
+
+Dado un numero mostrar una escalera con escalones de guiones usando el numero para los niveles de la escalera. 
+
+* Input: `4`
+* Output:
+  
+```javascript
+  [-]
+  [-][-]
+  [-][-][-]
+  [-][-][-][-]
+```
+
+### Ejercicio 11
+
+Dado un String y una busqueda, censurar las coincidencias de la busqueda en el String con [-CENSURADO-]
+Si ambos llegan vacios, devolver un "No se puede leer el texto y la busqueda". Y si llega un solo parametro, devolver "No se puede hacer la busqueda"
+
+* Input: `('holi como va', 'holi)` -- Frase y palabra a censurar
+* Output: `[-CENSURADO-] como va`
