@@ -1,8 +1,8 @@
 # Ejercicios Logica de Programacion
 
-**Work in Progress**
+**Work in Progress** 👷
 
-**Give me a coffee!** https://cafecito.app/denolemon
+**Give me a coffee!** https://cafecito.app/denolemon ☕ ☕
 
 En este repositorio encontrarás diversos ejercicios de logica resueltos con Javascript. Son ejercicios comunes de entrevistas tecnicas y pruebas tecnicas.
 
