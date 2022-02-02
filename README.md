@@ -148,4 +148,30 @@ Dado un String devolver el caracter mas usado.
 
 ### Ejercio 16
 
+Dado una cadena de texto, devolver cuantas vocales tiene la misma.
+
+* Input: `denu`
+* Output: `2`
+
+### Ejercio 17
+
+Dado un numero, mostrar los numeros de 1 hasta el numero. Para multiplos de tres, escribir "denu" en lugar del numero, para los multiplos de cinco, "lemon", y si es multiplo de tres y cinco, "denolemon"
+
+* Input: `6`
+* Output: `1 2 denu 4 lemon denu`
+
+### Ejercio 18
+
+Dado un numero, mostrar sus divisores (hasta el número)
+
+* Input: `5`
+* Output: `1 5`
+
+### Ejercio 19
+
+Dado un array de objetos de peliculas (titulo, director y si fue vista), mostrar todas las peliculas indicando si la viste o no.
+
+* Input: `[{"el señor de los anillos", "denu lemon", true}, {"avatar", "denu lemon", false}]`
+* Output: `Ya has visto "El señor de los anillos de denu lemon", Te falta ver "Avatar de Denu Lemon"`
+
 TODO
