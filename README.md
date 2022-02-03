@@ -172,6 +172,35 @@ Dado un numero, mostrar sus divisores (hasta el número)
 Dado un array de objetos de peliculas (titulo, director y si fue vista), mostrar todas las peliculas indicando si la viste o no.
 
 * Input: `[{"el señor de los anillos", "denu lemon", true}, {"avatar", "denu lemon", false}]`
-* Output: `Ya has visto "El señor de los anillos de denu lemon", Te falta ver "Avatar de Denu Lemon"`
+* Output: `I have seen "El señor de los anillos 2" directed by Deno Lemon
+I have not seen "El señor de los anillos 3" directed by Deno Lemon"`
+
+### Ejercio 20
+
+Dados dos String crear un algoritmo que compruebe si son anagramas entre si (Si ambos usan los mismos caracteres en una misma cantidad)
+
+* Input: `(Riesgo, Sergio)`
+* Output: `true`
+
+### Ejercio 21
+
+Dada un String y un numero, cortar el string mostrando X cantidad de caracteres dependiendo del numero enviado.
+
+* Input: `(Denu, 2)`
+* Output: `De`
+
+### Ejercio 22
+
+Dados dos numeros indicar cual es mayor y cual es menor.
+
+* Input: `(2, 5)`
+* Output: `2 is less than 5`
+
+### Ejercio 23
+
+Dado un String poner en mayuscula la primera letra de cada palabra en la cadena y devolverla.
+
+* Input: `Hola soy denu lemon`
+* Output: `Hola Soy Denu Lemon`
 
 TODO
