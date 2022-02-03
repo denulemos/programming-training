@@ -200,7 +200,49 @@ Dados dos numeros indicar cual es mayor y cual es menor.
 
 Dado un String poner en mayuscula la primera letra de cada palabra en la cadena y devolverla.
 
-* Input: `Hola soy denu lemon`
+* Input: `hola soy denu lemon`
 * Output: `Hola Soy Denu Lemon`
 
-TODO
+### Ejercio 24
+
+Dado un array de enteros y un numero, detectar si esa lista de numeros es una permutacion del 1 al numero aportado.
+
+Permutacion: Secuencia de numeros en orden sin que falte ninguno entre ellos
+
+* Input: `([1,2,3,4,5], 5)`
+* Output: `true`
+
+### Ejercio 25
+
+Dado un String, si hay mas mayusculas, pasar todo a mayuscula, y viceversa. 
+
+* Input: `"DENu"`
+* Output: `DENU`
+
+### Ejercio 26
+
+Dado un numero mostrar la serie de fibonacci y el resultado de la misma
+
+* Input: `10`
+* Output: `Serie completa: 0,1,1,2,3,5,8,13,21,34,55) Resultado: 55`
+
+### Ejercio 27
+
+Dado un numero mostrar a cuantos años, meses y dias equivale.
+
+* Input: `920`
+* Output: `2 años, 6 meses y 2 dias`
+
+### Ejercio 28
+
+Dado un numero devolver su factorial (La multiplifacion de todos los numeros hasta llegar a el)
+
+* Input: `3`
+* Output: `6 (1x2x3)`
+
+### Ejercio 29
+
+Dado un numero indicar si es capicua o no (se leen igual de izquierda a derecha y viceversa)
+
+* Input: `2002`
+* Output: `true`
