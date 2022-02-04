@@ -344,12 +344,26 @@ Dado un texto comprobar que sea un email valido
 * Input: `denu@gmail.com`
 * Output: `true`
 
-### Ejercicio 40 (TODO)
+### Ejercicio 40
 
 Dado un array de numeros devolver el valor mas bajo y el valor mas alto
 
 * Input: `[1,2,3,4,5]`
 * Output: `Bajo: 1 Alto:5`
+
+### Ejercicio 41 (TODO)
+
+Dado un numero, mostrar un triangulo de astericos con ese numero de filas, un arbolito de X filas.
+
+* Input: `4`
+* Output:
+
+```javascript
+   *
+  ***
+ *****
+*******
+```
 
 # Creditos / Agradecimientos
 
