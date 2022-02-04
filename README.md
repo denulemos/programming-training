@@ -316,8 +316,42 @@ Dado un array, crear otro array con el primer y ultimo elemento del array origin
 * Input: `[100,200,500,600]`
 * Output: `[100,600]`
 
+### Ejercio 36
 
-## Creditos / Agradecimientos
+Dado un String, devolver cuantas consonantes y vocales tiene.
+
+* Input: `denu`
+* Output: `Consonantes: 2 Vocales: 2`
+
+### Ejercio 37
+
+Dado un Array o Texto devolver el elemento o palabras que mas aparecen dentro de estos.
+
+* Input: `[denu, denu, lemon]`
+* Output: `denu`
+
+### Ejercio 38
+
+Dado un numero mostrar una lista de los cuadrados de todos los numeros naturales hasta llegar al mismo.
+
+* Input: `5`
+* Output: `[ 0, 1, 4, 9, 16 ]`
+
+### Ejercio 39
+
+Dado un texto comprobar que sea un email valido
+
+* Input: `denu@gmail.com`
+* Output: `true`
+
+### Ejercio 40 (TODO)
+
+Dado un array de numeros devolver el valor mas bajo y el valor mas alto
+
+* Input: `[1,2,3,4,5]`
+* Output: `Bajo: 1 Alto:5`
+
+# Creditos / Agradecimientos
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
 * Algunos problemas los tenia guardados entre repositorios y otros salieron de Hackerrank, excelente plataforma para practicar
