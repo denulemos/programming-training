@@ -2,7 +2,7 @@
 
 **Work in Progress** 👷
 
-**Give me a coffee!** https://cafecito.app/denolemon ☕ ☕
+**Give me a coffee!** <https://cafecito.app/denolemon> ☕ ☕
 
 En este repositorio encontrarás diversos ejercicios de logica resueltos con Javascript. Son ejercicios comunes de entrevistas tecnicas y pruebas tecnicas.
 
@@ -91,7 +91,7 @@ Dados dos array devolver un array con los elementos comunes entre ambos sin dupl
 
 ### Ejercicio 10
 
-Dado un numero mostrar una escalera con escalones de guiones usando el numero para los niveles de la escalera. 
+Dado un numero mostrar una escalera con escalones de guiones usando el numero para los niveles de la escalera.
 
 * Input: `4`
 * Output:
@@ -214,7 +214,7 @@ Permutacion: Secuencia de numeros en orden sin que falte ninguno entre ellos
 
 ### Ejercio 25
 
-Dado un String, si hay mas mayusculas, pasar todo a mayuscula, y viceversa. 
+Dado un String, si hay mas mayusculas, pasar todo a mayuscula, y viceversa.
 
 * Input: `"DENu"`
 * Output: `DENU`
@@ -246,3 +246,46 @@ Dado un numero indicar si es capicua o no (se leen igual de izquierda a derecha 
 
 * Input: `2002`
 * Output: `true`
+
+### Ejercio 30
+
+Dado un array de numeros, devolver el array sin elementos duplicados. Lo mismo si hay algun String, debemos borrarlo
+
+* Input: `[1,1,2,2,3,3,'denu']`
+* Output: `[1,2,3]`
+
+### Ejercio 31
+
+Dado un numero, indicar que tipo de angulo es (recto, agudo, obtuso, etc..)
+
+**Referencia**
+
+* Agudos < 90
+* Recto == 90
+* Obtuso > 90
+* Llano == 180
+* Completo == 360
+* Mayor a 180 < 180
+
+* Input: `90`
+* Output: `Angulo Recto`
+
+### Ejercio 32
+
+Dado un array de numeros, devolver el mismo con sus numeros elevados al cuadrado, y se debe eliminar cualquier contenido que no sea numerico
+
+* Input: `[5,6,7,"denu"]`
+* Output: `[25,36,49]`
+
+### Ejercio 33
+
+Hacer un reloj que en tiempo real vaya mostrando la hora a cada segundo. Solo se puede usar Date para conseguir la hora una vez, pero no para actualizarla
+
+* Input:
+
+  ```javascript
+  const myClock = new Clock();
+  myClock.turnOn();
+  ```
+
+* Output: `14:20:16` -- Actualizar en tiempo real HH:MM:SS
