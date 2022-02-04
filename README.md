@@ -6,6 +6,11 @@
 
 En este repositorio encontrarás diversos ejercicios de logica resueltos con Javascript. Son ejercicios comunes de entrevistas tecnicas y pruebas tecnicas.
 
+## Testing
+
+Se usará Jest para testear.
+
+**Work in Progress** 👷
 ## Ejercicios
 
 El orden no tiene ninguna razon en especifico. Para ejecutar cada ejercicio se debe hacer `node ejercicioX` en la terminal.
@@ -289,3 +294,31 @@ Hacer un reloj que en tiempo real vaya mostrando la hora a cada segundo. Solo se
   ```
 
 * Output: `14:20:16` -- Actualizar en tiempo real HH:MM:SS
+
+### Ejercio 34
+
+Dados dos numeros, devolver los resultados de las operaciones basicas entre ellos (suma, resta, multiplicacion, division)
+
+* Input: `(2,2)`
+* Output:
+
+```javascript
+2 + 2 = 4
+2 - 2 = 0
+2 * 2 = 4
+2 / 2 = 1
+```
+
+### Ejercio 35
+
+Dado un array, crear otro array con el primer y ultimo elemento del array original
+
+* Input: `[100,200,500,600]`
+* Output: `[100,600]`
+
+
+## Creditos / Agradecimientos
+
+* Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
+* Algunos problemas los tenia guardados entre repositorios y otros salieron de Hackerrank, excelente plataforma para practicar
+* Algunas resoluciones se hicieron basadas en el libro Clean Code de Robert C. Martin, excepto la parte de TDD.

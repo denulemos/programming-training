@@ -1,0 +1,14 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Tests con Jest para ejercicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Denisse Lemos",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
