@@ -11,6 +11,7 @@ En este repositorio encontrarás diversos ejercicios de logica resueltos con Jav
 Se usará Jest para testear.
 
 **Work in Progress** 👷
+
 ## Ejercicios
 
 El orden no tiene ninguna razon en especifico. Para ejecutar cada ejercicio se debe hacer `node ejercicioX` en la terminal.
@@ -351,7 +352,7 @@ Dado un array de numeros devolver el valor mas bajo y el valor mas alto
 * Input: `[1,2,3,4,5]`
 * Output: `Bajo: 1 Alto:5`
 
-### Ejercicio 41 (TODO)
+### Ejercicio 41
 
 Dado un numero, mostrar un triangulo de astericos con ese numero de filas, un arbolito de X filas.
 
@@ -364,6 +365,34 @@ Dado un numero, mostrar un triangulo de astericos con ese numero de filas, un ar
  *****
 *******
 ```
+
+### Ejercicio 42
+
+Dado dos numeros, sacar un numero random entre ellos
+
+* Input: `1,100`
+* Output: `46` -- Random
+
+### Ejercicio 43
+
+Dado un array de numeros, sacar la media de todos (la suma de todos los numeros dividido por la cantidad de elementos, el promedio)
+
+* Input: `[1,2,3]`
+* Output: `3`
+
+### Ejercicio 44
+
+Dado un array de Strings, devolver otro con los valores que esten formados por mas de dos palabras
+
+* Input: `["hola denu", "pastel", "rosa"]`
+* Output: `["hola denu"]`
+
+### Ejercicio 45
+
+Dado un array de alumnos, con su nombre y su calificacion, mostrar cuantos aprobaron y cuantos no. (Aprobás con 6)
+
+* Input: `[["Denu", 4], ["Jorge", 2], ["Mafalda", 10]]`
+* Output: `2 suspensos y 1 aprobado`
 
 # Creditos / Agradecimientos
 
