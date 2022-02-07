@@ -13,5 +13,4 @@ const flipWord = (word) => {
     return inverted;
 }
 
-console.log(flipWord("hola")); // aloh
-console.log(flipWord("denu")); // uned
+module.exports = flipWord;

@@ -8,13 +8,11 @@ En este repositorio encontrarás diversos ejercicios de logica resueltos con Jav
 
 ## Testing
 
-Se usará Jest para testear.
-
-**Work in Progress** 👷
+Instrucciones para Tests dentro de la carpeta `Tests`
 
 ## Ejercicios
 
-El orden no tiene ninguna razon en especifico. Para ejecutar cada ejercicio se debe hacer `node ejercicioX` en la terminal.
+El orden no tiene ninguna razon en especifico.
 
 ### Ejercicio 1
 
@@ -393,6 +391,48 @@ Dado un array de alumnos, con su nombre y su calificacion, mostrar cuantos aprob
 
 * Input: `[["Denu", 4], ["Jorge", 2], ["Mafalda", 10]]`
 * Output: `2 suspensos y 1 aprobado`
+
+### Ejercicio 46
+
+Dado un String devolver los posibles substrings
+
+* Input: `hola`
+* Output: `['h','o','l','a','ho','la','hol','ola','hola]`
+
+### Ejercicio 47
+
+Dado un array de objetos devolver cuales son las aficiones mas comunes de los usuarios
+
+* Input: `{aficiones de usuarios}`
+* Output: `{informatica: 6, futbol: 4, cine: 3}`
+
+### Ejercicio 48
+
+Dado un string devolver las letras que se repiten solo una vez y cual es la primera
+
+* Input: `Denu es Genial`
+* Output: `[[D, U, G, I, L], D]`
+
+### Ejercicio 49
+
+Dado un objeto, ver si existe una propiedad en concreto o no
+
+* Input: `(objeto, "nombre")`
+* Output: `true` -- existe la prop nombre en objeto
+
+### Ejercicio 50
+
+Dado un numero, devolver cuantos bucles tiene. Se tiene uno cuando tiene un circulo cerrado, por ejemplo, 6 tiene un bucle, 8 tiene dos, 1 tiene cero. 
+
+* Input: `(288661)`
+* Output: `6`
+
+### Ejercicio 51
+
+Dado un array con numeros devolver dos array, uno con los pares y otro con impares
+
+* Input: `[2,4,5,6,7,8]`
+* Output: `Pares [2,4,6,8] Impares [5,7]`
 
 # Creditos / Agradecimientos
 

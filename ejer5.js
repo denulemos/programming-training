@@ -3,4 +3,4 @@ const porcentajeCalculator = (percent, number) => {
     return result;
 }
 
-console.log(porcentajeCalculator(20, 100)); // 20
+module.exports = porcentajeCalculator;

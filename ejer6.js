@@ -32,4 +32,4 @@ const floorAndCeiling = (number) => {
     return side;
 }
 
-console.log(drawSquare(4)); // 20
+module.exports = drawSquare;

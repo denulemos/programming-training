@@ -10,6 +10,4 @@ const invertNumber = (number) => {
     }
 }
 
-console.log(invertNumber(123)); // 321
-console.log(invertNumber(1)); // 1
-console.log(invertNumber(-21)); // -12
+module.exports = invertNumber;

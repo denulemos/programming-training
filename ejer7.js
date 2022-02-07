@@ -14,5 +14,4 @@ const getOddNumbers = (number1, number2) => {
 
 // Comentado en el ejercicio hay otras opciones que se pueden tomar dentro del bucle si queremos usar un while
 
-console.log(getOddNumbers(1, 10)); // 5
-console.log(getOddNumbers(1, 100)); // 50
+module.exports = getOddNumbers;

@@ -1,12 +1,13 @@
 const multiplyTable = (number) => {
-    let result = `Tabla del ${number} \n`;
+    let result = "";
 
     for (let i = 1; i <= 10; i++){
         var operation = i*number;
-        result += `${i} x ${number} = ${operation}\n`
+        result += `${i} x ${number} = ${operation} `
     }
 
     return result;
 }
 
-console.log(multiplyTable(5));
+// Exportamos para los tests
+module.exports = multiplyTable;

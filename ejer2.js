@@ -13,5 +13,4 @@ const isPalindromo = (word) => {
     return checkIfIsPalindromo;
 }
 
-console.log(isPalindromo("otto")); // true
-console.log(isPalindromo("offot")); // false
+module.exports = isPalindromo;

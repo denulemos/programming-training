@@ -23,5 +23,4 @@ const searchWord = (word, phrase) => {
 
 }
 
-console.log(searchWord("hola", "hola, como va hola")); // 2
-console.log(searchWord("denu", "hola, como va hola")); // 0
+module.exports = searchWord;
