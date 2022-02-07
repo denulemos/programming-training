@@ -442,10 +442,19 @@ Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes d
 
 Calculo hipotenusa
 
-`√CatA + CatB`
+`√CatA^2 + CatB^2`
 
 * Input: `(8, 10)`
-* Output: `12,81` -- o redondear a 13
+* Output: `12,81`
+
+### Ejercicio 53
+
+Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvil, expresada en kilómetros por hora, proporcione la velocidad en metros por segundo.
+
+`1km/h => 0,28 m/s`
+
+* Input: `100`
+* Output: `27,78`
 
 # Creditos / Agradecimientos / Fuentes
 
