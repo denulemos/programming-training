@@ -436,8 +436,16 @@ Dado un array con numeros devolver dos array, uno con los pares y otro con impar
 * Input: `[2,4,5,6,7,8]`
 * Output: `Pares [2,4,6,8] Impares [5,7]`
 
-# Creditos / Agradecimientos
+### Ejercicio 52
+
+(Exclusivo Javascript) Escribir un programa que, dado un String, lo muestre en pantalla mediante un `alert()`
+
+* Input: `'Texto de prueba'`
+* Output: Se deberia mostrar un alert en el navegador
+
+# Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
 * Algunos problemas los tenia guardados entre repositorios y otros salieron de Hackerrank, excelente plataforma para practicar
 * Algunas resoluciones se hicieron basadas en el libro Clean Code de Robert C. Martin, excepto la parte de TDD.
+* https://pastranamoreno.files.wordpress.com/2012/05/ejercicios-resueltos.pdf
