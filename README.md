@@ -438,10 +438,14 @@ Dado un array con numeros devolver dos array, uno con los pares y otro con impar
 
 ### Ejercicio 52
 
-(Exclusivo Javascript) Escribir un programa que, dado un String, lo muestre en pantalla mediante un `alert()`
+Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de sus dos catetos.
 
-* Input: `'Texto de prueba'`
-* Output: Se deberia mostrar un alert en el navegador
+Calculo hipotenusa
+
+`√CatA + CatB`
+
+* Input: `(8, 10)`
+* Output: `12,81` -- o redondear a 13
 
 # Creditos / Agradecimientos / Fuentes
 
