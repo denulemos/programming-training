@@ -11,11 +11,4 @@ const drawStairs = (level) => {
     return stairs;
 }
 
-console.log(drawStairs(5)); 
-/*
-[-]
-[-][-]
-[-][-][-]
-[-][-][-][-]
-[-][-][-][-][-]
-*/
+module.exports = drawStairs;

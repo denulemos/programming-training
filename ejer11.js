@@ -17,4 +17,4 @@ const censor = (text=false, wordToCensor=false) => {
     return result;
 }
 
-console.log(censor("Hola, como estas? Hola", "Hola")); // [-CENSURADO-], como estas? [-CENSURADO-]
+module.exports = censor;
