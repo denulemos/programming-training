@@ -22,5 +22,4 @@ const subdivideArray = (array, newArraySize) => {
     return arrays;
 }
 
-
-console.log(subdivideArray([1,2,3,4,5,6,7,8,9,10], 3)); // [1,2,3], [4,5,6], [7,8,9], [10]
+module.exports = subdivideArray;

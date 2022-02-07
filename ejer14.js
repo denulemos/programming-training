@@ -11,8 +11,6 @@ const repeatMe = (text, repeatTimes=1) => {
     return result;
 }
 
-console.log(repeatMe('denu', 2)); //denu denu
-
 // Solucion Javascript con Prototype
 
 String.prototype.repeatMeJs = function(repeatTimes){
@@ -27,5 +25,4 @@ String.prototype.repeatMeJs = function(repeatTimes){
 
 console.log("denu".repeatMeJs(2)); //denu denu")
 
-
-
+module.exports = repeatMe;

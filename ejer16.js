@@ -6,8 +6,7 @@ const searchVocals = (textToEvaluate) => {
     return coincidences ? coincidences.length : 0;
 }
 
-
-console.log(searchVocals("Hola como estas todo bien")); // 10
+module.exports= searchVocals;
 
 
 

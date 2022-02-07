@@ -14,3 +14,5 @@ const isDivisor = (numberToEvaluate, baseNumber) => {
 }
 
 console.log(getDivisors(5)); // 1 5
+
+module.exports = getDivisors;

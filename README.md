@@ -6,6 +6,8 @@
 
 En este repositorio encontrarás diversos ejercicios de logica resueltos con Javascript. Son ejercicios comunes de entrevistas tecnicas y pruebas tecnicas.
 
+¿Alguna duda? Me podés encontrar en Twitter como `@DenoKennedy`
+
 ## Testing
 
 Instrucciones para Tests dentro de la carpeta `Tests`

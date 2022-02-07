@@ -21,4 +21,4 @@ const evaluateNumber = (numberToEvaluate) => {
     return numberToEvaluate;
 }
 
-console.log(printNumbers(6));
+module.exports = printNumbers;

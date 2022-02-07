@@ -19,8 +19,6 @@ const letterRepeated = (textToEvaluate) => {
     return `La letra mas repetida es la ${mostRepeatedLetter} con ${maxRepeated} repeticiones`;
 }
 
-
-console.log(letterRepeated("Hola como estas todo bien")); // La letra mas repetida es la o con 5 repeticiones
-
+module.exports = letterRepeated;
 
 

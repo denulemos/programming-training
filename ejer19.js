@@ -1,4 +1,4 @@
-// Creamos datos de prueba
+
 const moviesMock = [
     {title: "El señor de los anillos",
     directedBy: "Deno Lemon",
@@ -13,7 +13,6 @@ const moviesMock = [
     directedBy: "Deno Lemon",
     seen: false},
 ]
-
 const myMovies = (movies) => {
     let returnString = ""
     for (movie of movies) {
@@ -31,5 +30,9 @@ const myMovies = (movies) => {
     return returnString;
 }
 
+
+
 console.log(myMovies(moviesMock));
+
+module.exports = myMovies;
 
