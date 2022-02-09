@@ -12,4 +12,4 @@ const isAnAnagram = (textOne, textTwo) => {
     return cleanString(textOne) === cleanString(textTwo);
 }
 
-console.log(isAnAnagram("Sergio", "Riesgo")); // True
+module.exports = isAnAnagram;

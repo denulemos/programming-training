@@ -15,4 +15,4 @@ const validateParameters = (text, amount) => {
     return typeof text === 'string' && typeof amount === 'number';
 }
 
-console.log(cutText("Denisse", 5)); // Denis
+module.exports = cutText;
