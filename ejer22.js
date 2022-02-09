@@ -8,5 +8,5 @@ const numberComparison = (number1, number2) => {
     }
 }
 
-console.log(numberComparison(5, 5)); // 5 is equal to 5
-console.log(numberComparison(5, 10)); // 5 is less than 10
+
+module.exports = numberComparison;

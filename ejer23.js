@@ -27,5 +27,4 @@ const capitalLetterArray = (text) => {
     return words.join(" ");
 }
 
-console.log(capitalLetter("hola soy deno lemon")); // Hola Soy Deno Lemon
-console.log(capitalLetterArray("hola soy deno lemon")); // Hola Soy Deno Lemon
+module.exports = {capitalLetter, capitalLetterArray}
