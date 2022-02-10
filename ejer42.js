@@ -4,4 +4,4 @@ const generateRandom = (floor, top) => {
     return Math.round(randomNumber); // Lo redondeamos para que no sea decimal
 }
 
-console.log(generateRandom(1, 100));
+module.exports = generateRandom;

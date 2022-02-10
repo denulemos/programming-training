@@ -10,11 +10,4 @@ const calculator = (number1 , number2) =>{
     `${number1} / ${number2} = ${division}`
 }
 
-console.log(calculator(5,5));
-
-/*
-5 + 5 = 10 
-5 - 5 = 0 
-5 * 5 = 25 
-5 / 5 = 1
-*/
+module.exports = calculator;

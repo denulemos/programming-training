@@ -15,4 +15,4 @@ const hasLoop = (numbers) => {
   return counter;
 };
 
-console.log(hasLoop(66668888999900001111223)); // 8
+module.exports = hasLoop;

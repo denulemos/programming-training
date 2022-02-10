@@ -3,4 +3,4 @@ const calculateMetersPerSecond = (kilometersPerHour) => {
     return kilometersPerHour * metersPerSecondConstant;
 }
 
-console.log(calculateMetersPerSecond(100)); //27.77777777777778
+module.exports = calculateMetersPerSecond;

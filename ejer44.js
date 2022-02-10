@@ -12,4 +12,4 @@ const formPhrases = (elements) => {
     return newElements;
 }
 
-console.log(formPhrases(["denu lemos", "hola", "como va che"])) // [ 'denu lemos', 'como va che' ]
+module.exports = formPhrases;

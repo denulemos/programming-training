@@ -11,4 +11,4 @@ const squaredArray = (array) => {
     return array;
 }
 
-console.log(squaredArray([1,2,3,4,5,'denu'])); // [ 1, 4, 9, 16, 25 ]
+module.exports = squaredArray;

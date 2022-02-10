@@ -9,5 +9,4 @@ const isCapicua = (numberToEvaluate) => {
     return numberToEvaluateString === numberToEvaluateStringReverse;
 }
 
-console.log(isCapicua(2003)); // false
-console.log(isCapicua(2002)); // true
+module.exports = isCapicua;

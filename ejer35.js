@@ -14,4 +14,4 @@ const cleanTheArray = (array) => {
     return array;
 }
 
-console.log(createNewArrayOfFirstAndLast([1, 2, 3, 4, 5])); // [1,5]
+module.exports = createNewArrayOfFirstAndLast;

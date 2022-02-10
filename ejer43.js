@@ -8,4 +8,4 @@ const getAverage = (arrayOfNumbers) => {
     return result;
 }
 
-console.log(getAverage([1,5,7,3,4])); // 4
+module.exports = getAverage;

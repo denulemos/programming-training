@@ -26,4 +26,4 @@ const getTypeOfAngle = (grade) => {
 
 }
 
-console.log(getTypeOfAngle(90)); // Angulo Recto
+module.exports = getTypeOfAngle;

@@ -11,4 +11,4 @@ const evaluateCalifications = (students) => {
 
 }
 
-console.log(evaluateCalifications([["Denu", 10], ["Jorge", 6], ["Mafalda", 3]])) // 2 aprobados y 1 desaprobados
+module.exports = evaluateCalifications;

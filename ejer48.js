@@ -25,4 +25,4 @@ const onlyOneLetter = (text) => {
     return `${arrayResult}, ${arrayResult[0]}`
 }
 
-console.log(onlyOneLetter('denu es la mejor del mundo')); // s,a,j,r, s
+module.exports = onlyOneLetter;

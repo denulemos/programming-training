@@ -19,8 +19,4 @@ const subtringsGenerator = (string) => {
     return substrings.filter(substring => substring.length > 1);
 }
 
-console.log(subtringsGenerator('denu'));
-
-/*
-[ 'de', 'den', 'denu', 'en', 'enu', 'nu' ]
-*/
+module.exports = subtringsGenerator;

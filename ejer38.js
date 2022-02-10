@@ -11,4 +11,5 @@ const squareOfNumber = (number) => {
     return number*number;
 }
 
-console.log(showSquare(5)); // [ 0, 1, 4, 9, 16 ]
+
+module.exports = showSquare;

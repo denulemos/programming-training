@@ -1,4 +1,7 @@
-// Objeto mock
+const getHobbiesCount = require("../ejer47");
+
+const expectedResult = { cine: 4, musica: 4, bordado: 4, surf: 3, cocina: 5, tecnologia: 4 };
+
 const users = [
     {name: 'denu', hobbie: ['cine', 'musica', 'bordado']},
     {name: 'deno', hobbie: ['surf', 'cocina', 'tecnologia']},
@@ -10,16 +13,10 @@ const users = [
     {name: 'denu', hobbie: ['bordado', 'musica', 'cocina']},
 ];
 
-const getHobbiesCount = (users) => {
-    let hobbiesMap = {};
+test("getHobbiesCount should be defined", () => {
+    expect(getHobbiesCount(users)).toBeDefined();
+});
 
-    for (object of users){
-        for (hobbie of object.hobbie){
-            hobbiesMap[hobbie] = (hobbiesMap[hobbie] || 0) + 1;
-        }
-    }
-
-    return hobbiesMap;
-}
-
-module.exports = getHobbiesCount;
+test("getHobbiesCount should return expected", () => {
+    expect(getHobbiesCount(users)).toEqual(expectedResult)
+});
