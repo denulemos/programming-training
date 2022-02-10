@@ -23,6 +23,4 @@ String.prototype.repeatMeJs = function(repeatTimes){
     return result.toString();
 }
 
-console.log("denu".repeatMeJs(2)); //denu denu")
-
 module.exports = repeatMe;

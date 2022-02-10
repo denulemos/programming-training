@@ -6,4 +6,4 @@ const getFactorial = (numberToFactor) => {
     return factorial;
 }
 
-console.log(getFactorial(5)); // 120 
+module.exports = getFactorial;

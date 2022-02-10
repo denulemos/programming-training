@@ -13,6 +13,4 @@ const isDivisor = (numberToEvaluate, baseNumber) => {
     return baseNumber % numberToEvaluate === 0;
 }
 
-console.log(getDivisors(5)); // 1 5
-
 module.exports = getDivisors;

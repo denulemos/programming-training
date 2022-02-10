@@ -7,5 +7,4 @@ const isPermutation = (arrayOfNumbers, numberToPermutate) => {
   return true;
 };
 
-console.log(isPermutation([1, 2, 3, 4, 5], 5)); // true
-console.log(isPermutation([3, 4, 6], 6)); // false
+module.exports = isPermutation;

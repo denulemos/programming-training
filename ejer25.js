@@ -15,7 +15,4 @@ const toMayusOrMinus = (stringToEvaluate) => {
     return mayusAmount > minusAmount ? stringToEvaluate.toUpperCase() : stringToEvaluate.toLowerCase();
 }
 
-console.log(toMayusOrMinus("hola soy deno lemon")); // hola soy deno lemon
-console.log(toMayusOrMinus("hOLA SOY dENO lemON")); // HOLA SOY DENO LEMON
-
-// Este ejercicio fue hecho por github copilot en un 86%
+module.exports = toMayusOrMinus;

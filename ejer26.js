@@ -12,5 +12,4 @@ const getFibonacciSequence = (numberToPermutate) => {
     return `Fibonacci Serie: ${serie} \n Total: ${total}`;
 }
 
-console.log(getFibonacciSequence(5));
-console.log(getFibonacciSequence(10));
+module.exports = getFibonacciSequence;

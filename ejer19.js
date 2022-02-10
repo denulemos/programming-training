@@ -31,8 +31,5 @@ const myMovies = (movies) => {
 }
 
 
-
-console.log(myMovies(moviesMock));
-
 module.exports = myMovies;
 

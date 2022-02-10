@@ -6,5 +6,4 @@ const calculateTime = (daysToCalculate) => {
     return `${years} años, ${months} meses, ${days} dias`;
 }
 
-
-console.log(calculateTime(9657));
+module.exports = calculateTime;
