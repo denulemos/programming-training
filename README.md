@@ -456,6 +456,13 @@ Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvi
 * Input: `100`
 * Output: `27,78`
 
+### Ejercicio 54
+
+Se dan dos array del mismo tamaño de numeros, y un numero como parametros. Iterando al primer array de izquierda a derecha y al segundo array de derecha a izquierda, devolver cuantas veces se obtiene un numero con los pares de numeros que son menores al tercer parametro.
+
+* Input: `[1, 2, 3] [1, 2, 3] 31`
+* Output: `2` (Porque 33 no es menor a 31, 22 es menor a 31 y 11 es menor a 31)
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
