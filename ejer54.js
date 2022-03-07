@@ -1,3 +1,4 @@
+
 const iterateArrays = (a, b, k) =>{
     let result = 0;
     let resultAux;
@@ -6,7 +7,7 @@ const iterateArrays = (a, b, k) =>{
     
     for (let i = 0; i < a.length; i++) {
         // Concatenamos ambos numeros obtenidos
-        resultAux = parseInt(a[i]+""+b[i]);
+        resultAux = parseInt(`${a[i]}${b[i]}`);
 
         // Si el numero obtenido es menor a k, se suma 1 a resultado
         if (resultAux < k ) {
@@ -18,4 +19,6 @@ const iterateArrays = (a, b, k) =>{
     
 }
 
-console.log(solution([1, 2, 3], [1, 2, 3], 31));
+module.exports = iterateArrays;
+
+

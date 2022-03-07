@@ -49,6 +49,8 @@ Dado un String y una frase decir cuantas veces se repite la palabra en esa frase
 
 Dado un String, darle la vuelta, invertir el orden de sus caracteres. No se pueden usar metodos del lenguaje, solo estructuras de control.
 
+Hay dos soluciones. La primera sin el uso de pila y la segunda con, dependiendo de que tipo de solucion estamos buscando.
+
 * Input: `"hola"`
 * Output: `aloh`
 
@@ -461,7 +463,26 @@ Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvi
 Se dan dos array del mismo tamaño de numeros, y un numero como parametros. Iterando al primer array de izquierda a derecha y al segundo array de derecha a izquierda, devolver cuantas veces se obtiene un numero con los pares de numeros que son menores al tercer parametro.
 
 * Input: `[1, 2, 3] [1, 2, 3] 31`
-* Output: `2` (Porque 33 no es menor a 31, 22 es menor a 31 y 11 es menor a 31)
+* Output: `2` (Porque 31 no es menor a 31, 22 es menor a 31 y 13 es menor a 31)
+
+### Ejercicio 55
+
+Encontrar el tamaño de la ultima palabra. Si esta vacio, devolverá 0. Si es una sola palabra, se toma el tamaño de esa sola palabra.
+
+* Input: `Hola Mundo`
+* Output: `5`
+
+### Ejercicio 56
+
+De un array de String, se debe devolver el prefijo mas grande que se encuentre entre las cadenas.
+
+* Input: `["flower", "flow", "flight"]`
+* Output: `fl`
+
+Resultado si no existe prefijo
+
+* Input: `["dog", "raccoon", "car"]`
+* Output: `""`
 
 # Creditos / Agradecimientos / Fuentes
 
