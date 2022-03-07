@@ -484,6 +484,45 @@ Resultado si no existe prefijo
 * Input: `["dog", "raccoon", "car"]`
 * Output: `""`
 
+### Ejercicio 57
+
+De una cadena de numeros y caracteres, crear una cuenta, recibimos el Infix, creamos el Postfix y devolvemos el Prefix. La conversion seria asi:
+
+* Input: `["2", "1", "+", "3", "*"] => ((2+1)*3) => 9`
+
+Otro ejemplo es:
+
+* Input: `["4", "13", "5", "/", "+"] => (4 + (13/5)) => 6`
+
+Tenemos 3 tipos de notaciones: (Asi funcionan las calculadoras)
+
+* Infix = (2 + 1) + 3
+* Postfix = Es la expresion del Infix evaluada, tambien se le dice "Reverse Polish notation"
+* Prefix = Es la respuesta de la cuenta
+
+Hay ciertas reglas para resolver las expresiones Postfix. Para eso debemos utilizar una pila. Por ejemplo, tenemos el siguiente Infix `[2, 1, +, 3, *]`, cuando nos encontramos con numeros, los agregamos a la pila HASTA encontrarnos con un operador. Es decir, hasta el signo `+`, nuestra pila tiene dos numeros, `2, 1`, entonces, cuando llegamos al operador, realizamos la cuenta, es decir, `2 + 1`.
+Luego, ese resultado lo agregamos a la pila, y seguimos. En este caso, agregamos 3, y luego nos chocamos con la multiplicacion, asi que ahi, hacemos `(2 + 1) * 3`, dando como resultado 9.
+
+### Ejercicio 58 (TODO)
+
+Dado el titulo de la columna, averiguar el numero de la columna. Estará en mayuscula. 
+
+* Input: `B`
+* Output: `2` // Por su orden en el abecedario
+
+Tambien puede venir doble, es decir
+
+* Input: `AA`
+* Output: `27` // La operacion seria 26 * 1 + 1
+
+* Input: `AAA`
+* Output: `703` // (26 * 26 * 1) + (26 * 1) + 1 
+
+* Input: `ZY`
+* Output: `701` // (26 * 26) + 25
+
+y asi sucesivamente... 
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
