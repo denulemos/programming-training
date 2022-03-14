@@ -598,7 +598,7 @@ Remover todos los duplicados adyacentes de un String, de forma continuada hasta 
 Intentar solucionarlo con el uso de una Pila o con la ayuda de un Hash.
 Si el resultado es vacio, devolver "Empty String"
 
-### Ejercicio 67 (TODO Test)
+### Ejercicio 67 
 
 Remover todos los duplicados adyacentes de un String, de forma continuada hasta que ya no queden mas para eliminar, es decir, si de un String eliminamos los duplicados, y el resultado sigue teniendo duplicados, los seguimos eliminando.
 

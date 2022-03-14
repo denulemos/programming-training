@@ -15,8 +15,7 @@ test("removeDuplicates should work", () => {
 
     expect(removeDuplicates("aabbcccrreejfksssaaccc", 3)).toEqual("abrejfka");
     
-    
-    });
+});
 
 
 
