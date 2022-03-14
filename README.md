@@ -556,15 +556,15 @@ desde N hasta 2. Si N es impar imprimir un mensaje de error.
 * Input: `10`
 * Output: `28` (10 + 8 + 6 + 4 + 2)
 
-### Ejercicio 62
+### Ejercicio 62 (TODO Test)
 
 Dados dos números enteros, A y B, calcular su potencia (AB) en forma iterativa y recursiva.
 
 * Input: `2 2`
 * Output: `4`
 
-### Ejercicio 63
-Cargar una matriz de nxn elementos enteros. Mostrarla. Calcular la suma de los elementos de la diagonal principal en forma iterativa y recursiva.
+### Ejercicio 63 (TODO Test)
+Cargar una mahuktriz de nxn elementos enteros. Mostrarla. Calcular la suma de los elementos de la diagonal principal en forma iterativa y recursiva.
 
 * Input:
 
@@ -574,7 +574,10 @@ Cargar una matriz de nxn elementos enteros. Mostrarla. Calcular la suma de los e
 222
 ```
 
-* Output: `6` (2 + 2 +2)
+* Output: `6` (2 + 2 +2)  
+
+### Ejercicio 64 (TODO)
+¿Como se implementa un arbol en el lenguaje en donde estas actualmente programando?
 
 # Creditos / Agradecimientos / Fuentes
 
