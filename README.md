@@ -576,8 +576,11 @@ Cargar una mahuktriz de nxn elementos enteros. Mostrarla. Calcular la suma de lo
 
 * Output: `6` (2 + 2 +2)  
 
-### Ejercicio 64 (TODO)
-¿Como se implementa un arbol en el lenguaje en donde estas actualmente programando?
+### Ejercicio 64
+¿Como se implementa un BST (Binary Search Tree) en el lenguaje en donde estas actualmente programando? Tanto su estructura como sus funciones correspondientes
+
+### Ejercicio 65
+¿Como se implementa un arbol común en el lenguaje en donde estas actualmente programando?
 
 # Creditos / Agradecimientos / Fuentes
 
