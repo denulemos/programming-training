@@ -540,6 +540,42 @@ Dado un string que no puede ser vacio, se podrá eliminar de el, como mucho, un 
 * Input: `abcd`
 * Output: `False` // No es palindromo ni eliminando ninguno
 
+### Ejercicio 60
+
+Diseñar un algoritmo recursivo e iterativo que devuelva la suma de los primeros N
+enteros
+
+* Input: `3`
+* Output: `6` (1 + 2 + 3)
+
+### Ejercicio 61
+
+Diseñar un algoritmo recursivo que encuentre la suma de los enteros positivos pares
+desde N hasta 2. Si N es impar imprimir un mensaje de error.
+
+* Input: `10`
+* Output: `28` (10 + 8 + 6 + 4 + 2)
+
+### Ejercicio 62
+
+Dados dos números enteros, A y B, calcular su potencia (AB) en forma iterativa y recursiva.
+
+* Input: `2 2`
+* Output: `4`
+
+### Ejercicio 63
+Cargar una matriz de nxn elementos enteros. Mostrarla. Calcular la suma de los elementos de la diagonal principal en forma iterativa y recursiva.
+
+* Input:
+
+```
+222
+222
+222
+```
+
+* Output: `6` (2 + 2 +2)
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
