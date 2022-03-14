@@ -564,6 +564,7 @@ Dados dos números enteros, A y B, calcular su potencia (AB) en forma iterativa 
 * Output: `4`
 
 ### Ejercicio 63 (TODO Test)
+
 Cargar una mahuktriz de nxn elementos enteros. Mostrarla. Calcular la suma de los elementos de la diagonal principal en forma iterativa y recursiva.
 
 * Input:
@@ -577,10 +578,81 @@ Cargar una mahuktriz de nxn elementos enteros. Mostrarla. Calcular la suma de lo
 * Output: `6` (2 + 2 +2)  
 
 ### Ejercicio 64
+
 ¿Como se implementa un BST (Binary Search Tree) en el lenguaje en donde estas actualmente programando? Tanto su estructura como sus funciones correspondientes
 
 ### Ejercicio 65
+
 ¿Como se implementa un arbol común en el lenguaje en donde estas actualmente programando?
+
+### Ejercicio 66
+
+Remover todos los duplicados adyacentes de un String, de forma continuada hasta que ya no queden mas para eliminar, es decir, si de un String eliminamos los duplicados, y el resultado sigue teniendo duplicados, los seguimos eliminando.
+
+* Input:
+`aab, aaabccddd, aa, baab, Mississippi, abbaca`
+
+* Output:
+`b, abd, "", "", M, ca`
+
+Intentar solucionarlo con el uso de una Pila o con la ayuda de un Hash.
+Si el resultado es vacio, devolver "Empty String"
+
+### Ejercicio 67 (TODO Test)
+
+Remover todos los duplicados adyacentes de un String, de forma continuada hasta que ya no queden mas para eliminar, es decir, si de un String eliminamos los duplicados, y el resultado sigue teniendo duplicados, los seguimos eliminando.
+
+La diferencia entre este y el ejercicio 66, es que ahora recibimos por parametros cuantos consecutivos iguales queremos eliminar.
+
+* Input:
+`(aab, 3), (aaabccddd, 3), (aa, 2), (baab,2), (Mississippi, 2), (abbaca, 2)`
+
+* Output:
+`aab, b, "", "", M, ca`
+
+Intentar solucionarlo con el uso de una Pila o con la ayuda de un Hash.
+Si el resultado es vacio, devolver "Empty String"
+
+### Ejercicio 68 (TODO Test)
+
+Implementar Merge y MergeSort en tu lenguaje de programacion preferido, utilizarlo con un array, ambos.
+
+* Input:
+`[100,-40,500,-124,0,21,7]]`
+
+* Output:
+`[-124, -40, 0, 7, 21, 100, 500]`
+
+### Ejercicio 69 (TODO Test)
+
+Implementar el algoritmo de selectionSort en tu lenguaje de programacion preferido.
+
+* Input:
+`[100,-40,500,-124,0,21,7]]`
+
+* Output:
+`[-124, -40, 0, 7, 21, 100, 500]`
+
+### Ejercicio 70 (TODO Test)
+
+Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
+
+* Input:
+`[100,-40,500,-124,0,21,7]]`
+
+* Output:
+`[-124, -40, 0, 7, 21, 100, 500]`
+
+
+### Ejercicio 71 (TODO Test)
+
+Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
+
+* Input:
+`[100,-40,500,-124,0,21,7]]`
+
+* Output:
+`[-124, -40, 0, 7, 21, 100, 500]`
 
 # Creditos / Agradecimientos / Fuentes
 

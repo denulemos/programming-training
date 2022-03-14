@@ -6,7 +6,7 @@ class Node {
 }
 
 class SearchTree {
-    constructor(data) {
+    constructor() {
       this.root = null; // Por defecto el arbol no tiene raiz
     }
 
@@ -15,12 +15,15 @@ class SearchTree {
         // creamos un nuevo nodo
         const newNode = new Node(data);
         // si el root no tiene hijos, este nodo pasará a serlo
-        if (this.root === null) this.root = newNode;
+        this.root === null ? this.root = newNode : node.children.push(newNode);
         // si no, lo agregamos al array de nodos hijos
-        node.children.push(newNode);
+        
     }
 
-    
+    getRoot (){
+      return this.root;
+    }
+
 }
 
 module.exports = {Node, SearchTree}
