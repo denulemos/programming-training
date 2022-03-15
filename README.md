@@ -662,7 +662,7 @@ Implementar LinkedLists y sus respectivas funciones en tu lenguaje de programaci
 
 Implementar hashtables con tu lenguaje preferido.
 
-### Ejercicio 73 (TODO)
+### Ejercicio 73 (TODO Test)
 
 Se recibe un texto y se debe devolver cuantas apariciones posee cada palabra del mismo. El mismo puede tener caracteres especiales
 
