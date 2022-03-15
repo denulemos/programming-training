@@ -40,7 +40,7 @@ No tener en cuenta espacios ni simbolos.
 
 Posee dos soluciones. Una validada con metodos de JS y otro con manejos de datos.
 
-Pueden venir strings con todo tipo de caracteres y espacios. Un caso de uso quedo sin funcionar, a corregir. 
+Pueden venir strings con todo tipo de caracteres y espacios. Un caso de uso quedo sin funcionar, a corregir.
 
 ### Ejercicio 3
 
@@ -430,7 +430,7 @@ Dado un objeto, ver si existe una propiedad en concreto o no
 
 ### Ejercicio 50
 
-Dado un numero, devolver cuantos bucles tiene. Se tiene uno cuando tiene un circulo cerrado, por ejemplo, 6 tiene un bucle, 8 tiene dos, 1 tiene cero. 
+Dado un numero, devolver cuantos bucles tiene. Se tiene uno cuando tiene un circulo cerrado, por ejemplo, 6 tiene un bucle, 8 tiene dos, 1 tiene cero.
 
 * Input: `(288661)`
 * Output: `6`
@@ -520,7 +520,7 @@ Tambien puede venir doble, es decir
 * Output: `27` // La operacion seria 26 * 1 + 1
 
 * Input: `AAA`
-* Output: `703` // (26 * 26 * 1) + (26 * 1) + 1 
+* Output: `703` // (26 *26* 1) + (26 * 1) + 1
 
 * Input: `ZY`
 * Output: `701` // (26 * 26) + 25
@@ -529,7 +529,7 @@ y asi sucesivamente...
 
 ### Ejercicio 59
 
-Dado un string que no puede ser vacio, se podrá eliminar de el, como mucho, un solo caracter, para volverlo un palindromo valido. Tambien valida si es palindromo o no sin necesidad de quitar nada. 
+Dado un string que no puede ser vacio, se podrá eliminar de el, como mucho, un solo caracter, para volverlo un palindromo valido. Tambien valida si es palindromo o no sin necesidad de quitar nada.
 
 * Input: `abca`
 * Output: `True` // Se elimina la letra C
@@ -598,7 +598,7 @@ Remover todos los duplicados adyacentes de un String, de forma continuada hasta 
 Intentar solucionarlo con el uso de una Pila o con la ayuda de un Hash.
 Si el resultado es vacio, devolver "Empty String"
 
-### Ejercicio 67 
+### Ejercicio 67
 
 Remover todos los duplicados adyacentes de un String, de forma continuada hasta que ya no queden mas para eliminar, es decir, si de un String eliminamos los duplicados, y el resultado sigue teniendo duplicados, los seguimos eliminando.
 
@@ -643,7 +643,6 @@ Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
 
-
 ### Ejercicio 71 (TODO Test)
 
 Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
@@ -673,9 +672,83 @@ Se recomienda solucionar con HashTables para no complejizar su solucion (No iter
 * Output:
 `[{hola, 2}, {como, 1}, {estas, 1}]`
 
+### Ejercicio 74 (TODO Test)
+
+Se nos da un array de numeros positivos, desde 1 a n. Todos los numeros estan presentes menos uno, y ese numero faltante es el que debemos encontrar.
+El array NO esta ordenado. NO sirve la solucion que recorre todo el array buscando el numero faltante.
+
+* Input:
+`[3,7,1,2,8,4,5]`
+* Output:
+`6`
+
+### Ejercicio 75 (TODO Test)
+
+Se nos da un array de numeros y un valor. Determinar si la suma de dos numeros del mismo dan ese valor. Si existe, devolver true, si no, false
+
+* Input:
+`[3,7,1,2,8,4,5], 9`
+* Output:
+`true` (5 + 4) (8 + 1) (7 + 2)
+
+### Ejercicio 76 (TODO Test)
+
+Se nos dan dos listas enlazadas ya ordenadas. Se debe devolver otra lista enlazada con los elementos de ambas listas pero ordenadas.
+
+* Input:
+
+`4 => 8 => 15 => 19 || 7 => 9 => 10 => 16`
+
+* Output:
+
+`4 => 7 => 8 => 9 => 10 => 15 => 16 => 19`
+
+### Ejercicio 77 (Sin codigo, analisis)
+
+Dada una funcion, calcular la complejidad de sus lineas y su complejidad total.
+
+```javascript
+function funChallenge(input) {
+    let a = 10; 
+    a = 50 +3; 
+
+    for (let i = 0; i < input.length; i++) { 
+        anotherFunction();
+        let stranger = true; 
+        a++; 
+    }
+
+    return a; 
+}
+```
+
+### Ejercicio 78 (Sin codigo, analisis)
+
+Dada una funcion, calcular la complejidad de sus lineas y su complejidad total.
+
+```javascript
+function anotherFunChallenge(input) {
+  let a = 5;
+  let b = 10;
+  let c = 50;
+  for (let i = 0; i < input; i++) {
+    let x = i + 1;
+    let y = i + 2;
+    let z = i + 3;
+
+  }
+  for (let j = 0; j < input; j++) {
+    let p = j * 2;
+    let q = j * 2;
+  }
+  let whoAmI = "I don't know";
+}
+```
+
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
 * Algunos problemas los tenia guardados entre repositorios y otros salieron de Hackerrank, excelente plataforma para practicar
 * Algunas resoluciones se hicieron basadas en el libro Clean Code de Robert C. Martin, excepto la parte de TDD.
-* https://pastranamoreno.files.wordpress.com/2012/05/ejercicios-resueltos.pdf
+* <https://pastranamoreno.files.wordpress.com/2012/05/ejercicios-resueltos.pdf>
