@@ -654,6 +654,25 @@ Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
 
+### Ejercicio 71 (TODO Test)
+
+Implementar LinkedLists y sus respectivas funciones en tu lenguaje de programacion preferido.
+
+### Ejercicio 72 (TODO Test)
+
+Implementar hashtables con tu lenguaje preferido.
+
+### Ejercicio 73 (TODO)
+
+Se recibe un texto y se debe devolver cuantas apariciones posee cada palabra del mismo. El mismo puede tener caracteres especiales
+
+Se recomienda solucionar con HashTables para no complejizar su solucion (No iterar palabra por palabra)
+
+* Input:
+`hola, como estas? hola`
+* Output:
+`[{hola, 2}, {como, 1}, {estas, 1}]`
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
