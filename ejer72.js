@@ -53,3 +53,75 @@ hashTable.remove('John');
 console.log(hashTable.search('Gandalf'));
 
 console.log(hashTable);
+
+// --------- OTRA SOLUCION POSIBLE ------------
+
+class HashTableAlternative {
+    constructor(size) {
+        // inicializamos el array con un length fijo
+        this.data = new Array(size);
+    }
+
+    _hash(key) {
+        let hash = 0;
+        for (let i = 0; i < key.length; i++) {
+            hash += key.charCodeAt(i);
+        }
+        return hash % this.data.length;
+    }
+
+    set(key, value) {
+        // Donde queremos guardar la info
+        let address = this._hash(key);
+        // si no existe, lo agregamos al array
+        if (!this.data[address]) {
+            this.data[address] = [];
+        }
+        this.data[address].push([key, value]);
+    }
+
+    get(key) {
+        let address = this._hash(key);
+        const currentBucket = this.data[address];
+        if (currentBucket) {
+            for (let i = 0; i < currentBucket.length; i++) {
+                // buscamos por todos los items del hash
+                if (currentBucket[i][0] === key) {
+                    return currentBucket[i][1];
+                }
+            }
+        }
+        return undefined;
+    }
+
+    // iterar por todas las key del hashtable
+    keys() {
+        if (!this.data.length) {
+            return undefined
+          }
+          let result = []
+
+          for (let i = 0; i < this.data.length; i++) {
+              
+              if (this.data[i] && this.data[i].length) {
+                // eliminamos potenciales coaliciones
+                if (this.data.length > 1) {
+                  for (let j = 0; j < this.data[i].length; j++) {
+                    result.push(this.data[i][j][0])
+                  }
+                } else {
+                  result.push(this.data[i][0])
+                } 
+              }
+          }
+          return result; 
+    }
+}
+
+const newHash = new HashTableAlternative(20);
+newHash.set('Gandalf', 'moon');
+newHash.set('John', 'sun');
+newHash.get('John'); // sun
+console.log(newHash.keys()); // ['Gandalf', 'John']
+
+

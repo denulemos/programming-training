@@ -1,23 +1,20 @@
-function anotherFunChallenge(input) {
-    let a = 5; // 0(1)
-    let b = 10; // 0(1)
-    let c = 50; // 0(1)
-    for (let i = 0; i < input; i++) { //0(n)
-      let x = i + 1; //0(n)
-      let y = i + 2; //0(n)
-      let z = i + 3; //0(n)
-  
+const containsCommon = (arr1, arr2) => {
+    // creamos un objeto que vamos a llenar con los items del primer array
+    let map = {};
+    for (let i = 0; i < arr1.length; i++) {
+        // si no existe el elemento en el map
+        if (!map[arr1[i]]) {
+            // lo agregamos al map
+            map[arr1[i]] = true;
+        }
     }
-    for (let j = 0; j < input; j++) { //0(n)
-      let p = j * 2; //0(n)
-      let q = j * 2; //0(n)
+
+    for (let j = 0; j < arr2.length; j++) {
+        // si el elemento existe en el map
+        if (map[arr2[j]]) {
+            return true;
+        }
     }
-    let whoAmI = "I don't know"; //0(n)
+
+    return false
 }
-
-/*
-
-COMPLEJIDAD TOTAL DE LA FUNCION: 0(n)
-BIG 0 (4 + 5n)
-Se toma siempre la peor posible
-*/

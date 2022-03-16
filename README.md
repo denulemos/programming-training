@@ -659,7 +659,7 @@ Implementar LinkedLists y sus respectivas funciones en tu lenguaje de programaci
 
 ### Ejercicio 72 (TODO Test)
 
-Implementar hashtables con tu lenguaje preferido.
+Implementar hashtables (o diccionarios) con tu lenguaje preferido.
 
 ### Ejercicio 73 (TODO Test)
 
@@ -707,6 +707,10 @@ Se nos dan dos listas enlazadas ya ordenadas. Se debe devolver otra lista enlaza
 
 Dada una funcion, calcular la complejidad de sus lineas y su complejidad total.
 
+Si no tenés idea de que trata, recomiendo leer mi articulo:
+
+<https://medium.com/@denu.a.lemos/notacion-big-0-qu%C3%A9-es-y-porque-es-tan-importante-f3f359fc0ff1?source=user_profile---------1>-------------------------------
+
 ```javascript
 function funChallenge(input) {
     let a = 10; 
@@ -720,13 +724,7 @@ function funChallenge(input) {
 
     return a; 
 }
-```
 
-### Ejercicio 78 (Sin codigo, analisis)
-
-Dada una funcion, calcular la complejidad de sus lineas y su complejidad total.
-
-```javascript
 function anotherFunChallenge(input) {
   let a = 5;
   let b = 10;
@@ -743,7 +741,77 @@ function anotherFunChallenge(input) {
   }
   let whoAmI = "I don't know";
 }
+
 ```
+
+### Ejercicio 78 (Sin codigo, analisis)
+
+Calcular la complejidad ESPACIAL de las siguientes dos funciones.
+
+```javascript
+function test(n) {
+  for (let i = 0; i < n.length; i++) {
+    console.log('test');
+  }
+}
+
+function arrayTimes(n) {
+  let array = []
+  for (let i = 0; i < n.length; i++){
+    array[i] = "hola"
+  }
+  return array;
+}
+```
+
+### Ejercicio 79 (TODO Test)
+
+Dados dos array, devolver true o false si comparten items en común
+
+* Input: `[1,2,3,4] [4,5,6,7]`
+* Output: `true`
+
+Tratar de NO usar los metodos nativos de JS que facilitan esto.
+
+### Ejercicio 80 (TODO Test)
+
+Implementar las funciones basicas (y nativas, agregar, quitar, etc..) de un Array en tu lenguaje preferido de programacion. 
+Tambien con clases.
+
+### Ejercicio 81 (TODO Test)
+
+Se nos dan dos listas ya ordenadas. Se debe devolver otra lista con los elementos de ambas listas pero ordenadas.
+
+* Input:
+
+`[4,6,8,9] || [3,8,10,11]`
+
+* Output:
+
+`[3,4,6,8,9,10,11]`
+
+### Ejercicio 82 (TODO Test)
+
+Dado un array, devolver el elemento que mas se repite (y si ninguno se repite, devolver undefined)
+
+* Input:
+
+`[2,5,2,2,2,1]`
+
+* Output:
+
+`2`
+
+### Ejercicio 83 (TODO Test)
+
+Implementar un Double Linked List en tu lenguaje favorito (Double es porque posee dos punteros, uno al siguiente nodo y otro al anterior)
+
+### Ejercicio 84 (TODO Test)
+
+Voltear un LinkedList
+
+* Input: `[1 => 2 => 3]`
+* Output: `[3 => 2 => 1]`
 
 
 # Creditos / Agradecimientos / Fuentes
