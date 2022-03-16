@@ -775,7 +775,7 @@ Tratar de NO usar los metodos nativos de JS que facilitan esto.
 
 ### Ejercicio 80 (TODO Test)
 
-Implementar las funciones basicas (y nativas, agregar, quitar, etc..) de un Array en tu lenguaje preferido de programacion. 
+Implementar las funciones basicas (y nativas, agregar, quitar, etc..) de un Array en tu lenguaje preferido de programacion.
 Tambien con clases.
 
 ### Ejercicio 81 (TODO Test)
@@ -815,7 +815,7 @@ Voltear un LinkedList
 
 ### Ejercicio 85 (TODO Test)
 
-Encontrar el numero de fibonacci de un numero dado usando ahora recursion. 
+Encontrar el numero de fibonacci de un numero dado usando ahora recursion.
 
 * Input: `3`
 * Output: `2` 0 + 1 + 1 = 2
@@ -824,30 +824,67 @@ Encontrar el numero de fibonacci de un numero dado usando ahora recursion.
 
 Imprimir una serie de numeros hasta el numero pasado por parametro pero usando recursion.
 
-### Ejercicio 87 
+### Ejercicio 87 (TODO Test)
+
 Contar los digitos de un numero usando recursion.
 
 * Input: `33`
 * Output: `2`
 
-### Ejercicio 88
+### Ejercicio 88 (TODO Test)
+
 Sumar todos los digitos del numero pasado por parametro usando recursion.
 
 * Input: `323`
 * Output: `8` (3 + 2 + 3)
 
-### Ejercicio 89
+### Ejercicio 89 (TODO Test)
+
 Sumar el primer numero por parametros n veces por si mismo. Resolver con recursion.
 
 * Input: `(8, 4)`
 * Output: `8` 32
 
-### Ejercicio 90
+### Ejercicio 90 (TODO Test)
+
 Dados 2 Binary Tree, chequear si son iguales
 
 * Input: `(8, 4)`
 * Output: `8` 32
-* 
+
+### Ejercicio 91 (TODO Test)
+
+Implementar una cola en tu lenguaje de programacion preferido
+
+### Ejercicio 92 (TODO Test)
+
+Dado un array de numeros y un numero, devolver true si la suma de alguno de los numeros del array dan como resultado ese numero
+
+* Input: `[5,7,1,2,8,4,3]`
+* Output: `true` => 7 + 3 y 2 + 8
+
+### Ejercicio 93 (TODO Test)
+
+Dado un Binary Tree, resolver si es un Binary Search Tree Valido (para que lo sea, se debe cumplir la regla de que a la derecha debe ser mayor y la izquierda menor)
+
+Se debe usar Recursion y un Inorder Transversal para resolver esto.
+
+### Ejercicio 94 (TODO Test)
+
+Dada una palabra y un diccionario de palabras, definir si esta palabra se puede separar en dos para formar dos palabras del diccionario.
+
+Se recomienda usar recursion.
+
+* Input: `"holadenu", ["hola", "denu", "ho", "la]`
+* Output: "Este String puede ser segmentado"
+
+### Ejercicio 95 (TODO Test)
+
+Dado un String de varias palabras, voltearlas 
+
+* Input: `Hola Mundo`
+* Output: `Mundo Hola`
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
