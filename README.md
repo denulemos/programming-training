@@ -813,7 +813,41 @@ Voltear un LinkedList
 * Input: `[1 => 2 => 3]`
 * Output: `[3 => 2 => 1]`
 
+### Ejercicio 85 (TODO Test)
 
+Encontrar el numero de fibonacci de un numero dado usando ahora recursion. 
+
+* Input: `3`
+* Output: `2` 0 + 1 + 1 = 2
+
+### Ejercicio 86 (TODO Test)
+
+Imprimir una serie de numeros hasta el numero pasado por parametro pero usando recursion.
+
+### Ejercicio 87 
+Contar los digitos de un numero usando recursion.
+
+* Input: `33`
+* Output: `2`
+
+### Ejercicio 88
+Sumar todos los digitos del numero pasado por parametro usando recursion.
+
+* Input: `323`
+* Output: `8` (3 + 2 + 3)
+
+### Ejercicio 89
+Sumar el primer numero por parametros n veces por si mismo. Resolver con recursion.
+
+* Input: `(8, 4)`
+* Output: `8` 32
+
+### Ejercicio 90
+Dados 2 Binary Tree, chequear si son iguales
+
+* Input: `(8, 4)`
+* Output: `8` 32
+* 
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
