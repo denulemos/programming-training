@@ -613,32 +613,32 @@ La diferencia entre este y el ejercicio 66, es que ahora recibimos por parametro
 Intentar solucionarlo con el uso de una Pila o con la ayuda de un Hash.
 Si el resultado es vacio, devolver "Empty String"
 
-### Ejercicio 68 (TODO Test)
+### Ejercicio 68
 
 Implementar Merge y MergeSort en tu lenguaje de programacion preferido, utilizarlo con un array, ambos.
 
 * Input:
-`[100,-40,500,-124,0,21,7]]`
+`[100,-40,500,-124,0,21,7]`
 
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
 
-### Ejercicio 69 (TODO Test)
+### Ejercicio 69
 
 Implementar el algoritmo de selectionSort en tu lenguaje de programacion preferido.
 
 * Input:
-`[100,-40,500,-124,0,21,7]]`
+`[100,-40,500,-124,0,21,7]`
 
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
 
-### Ejercicio 70 (TODO Test)
+### Ejercicio 70
 
 Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 
 * Input:
-`[100,-40,500,-124,0,21,7]]`
+`[100,-40,500,-124,0,21,7]`
 
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
@@ -648,7 +648,7 @@ Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 
 * Input:
-`[100,-40,500,-124,0,21,7]]`
+`[100,-40,500,-124,0,21,7]`
 
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
@@ -880,7 +880,7 @@ Se recomienda usar recursion.
 
 ### Ejercicio 95 (TODO Test)
 
-Dado un String de varias palabras, voltearlas 
+Dado un String de varias palabras, voltearlas.
 
 * Input: `Hola Mundo`
 * Output: `Mundo Hola`

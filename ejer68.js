@@ -32,3 +32,5 @@ const mergeSort = (arr) => {
     return merge(mergeSort(arr1), mergeSort(arr2));
 
 }
+
+module.exports = mergeSort;
