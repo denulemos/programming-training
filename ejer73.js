@@ -78,5 +78,4 @@ const countWords = (stringToEval) => {
     return arrayResponse;
 }
 
-console.log(countWords("Hola! como estas? todo bien? me alegro! hola! como andas? todo bien?"))
-console.log(countWords(""))
+module.exports = countWords;

@@ -653,15 +653,15 @@ Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
 
-### Ejercicio 71 (TODO Test)
+### Ejercicio 71
 
 Implementar LinkedLists y sus respectivas funciones en tu lenguaje de programacion preferido.
 
-### Ejercicio 72 (TODO Test)
+### Ejercicio 72
 
 Implementar hashtables (o diccionarios) con tu lenguaje preferido.
 
-### Ejercicio 73 (TODO Test)
+### Ejercicio 73
 
 Se recibe un texto y se debe devolver cuantas apariciones posee cada palabra del mismo. El mismo puede tener caracteres especiales
 
@@ -691,7 +691,7 @@ Se nos da un array de numeros y un valor. Determinar si la suma de dos numeros d
 * Output:
 `true` (5 + 4) (8 + 1) (7 + 2)
 
-### Ejercicio 76 (TODO Test)
+### Ejercicio 76
 
 Se nos dan dos listas enlazadas ya ordenadas. Se debe devolver otra lista enlazada con los elementos de ambas listas pero ordenadas.
 
@@ -838,7 +838,7 @@ Sumar todos los digitos del numero pasado por parametro usando recursion.
 * Input: `323`
 * Output: `8` (3 + 2 + 3)
 
-### Ejercicio 89 (TODO Test)
+### Ejercicio 89
 
 Sumar el primer numero por parametros n veces por si mismo. Resolver con recursion.
 
@@ -856,7 +856,7 @@ Dados 2 Binary Tree, chequear si son iguales
 
 Implementar una cola en tu lenguaje de programacion preferido
 
-### Ejercicio 92 (TODO Test)
+### Ejercicio 92
 
 Dado un array de numeros y un numero, devolver true si la suma de alguno de los numeros del array dan como resultado ese numero
 
@@ -869,7 +869,7 @@ Dado un Binary Tree, resolver si es un Binary Search Tree Valido (para que lo se
 
 Se debe usar Recursion y un Inorder Transversal para resolver esto.
 
-### Ejercicio 94 (TODO Test)
+### Ejercicio 94
 
 Dada una palabra y un diccionario de palabras, definir si esta palabra se puede separar en dos para formar dos palabras del diccionario.
 

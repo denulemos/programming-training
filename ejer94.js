@@ -19,9 +19,4 @@ const thisStringCanBeSegmented = (stringToEval, dictionary) => {
     return "String Can NOT be Segmented";
 }
 
-let s = "hellonow";
-let dictionary = new Set(["hello", "hello", "on", "now"]);
-console.log(thisStringCanBeSegmented(s, dictionary));
-dictionary = new Set(["hola", "denu", "hol", "den"]);
-s = "holadenu";
-console.log(thisStringCanBeSegmented(s, dictionary));
+module.exports = thisStringCanBeSegmented;

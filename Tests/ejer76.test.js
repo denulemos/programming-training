@@ -1,3 +1,5 @@
+const mergeAndSort = require('../ejer76.js');
+
 class Node {
     constructor (data, nextNode) {
         this.data = data;
@@ -158,46 +160,15 @@ linkedList2.add(6);
 linkedList2.add(20);
 linkedList2.add(34);
 
-const mergeAndSort = (linkedList, linkedList2) => {
-    const linkedListResult = new LinkedList();
+test("mergeAndSort should be defined", () => {
+    expect(mergeAndSort(linkedList, linkedList2)).toBeDefined();
+});
 
-    // apuntamos a los head de cada lista 
-    let current1 = linkedList.head;
-    let current2 = linkedList2.head;
-
-    // mientras ambas listas apunten a un NO nulo
-    while (current1 && current2) {
-        // si la data de c1 es mayor a c2, agregamos el menor al nuevo linked list
-        if (current1.data < current2.data) {
-            linkedListResult.add(current1.data);
-            // si seguimos al siguiente puntero
-            current1 = current1.next;
-            
-        }
-        // si son iguales, agregamos uno de ellos, y seguimos al siguiente puntero de ambos
-        else if (current1.data == current2.data) {
-            linkedListResult.add(current1.data);
-            current1 = current1.next; 
-            current2 = current2.next; 
-        }
-        else {
-            linkedListResult.add(current2.data);
-            current2 = current2.next;
-            
-        }
-    }
-
-    // Si alguno de ambos NO quedo nulo, agregarlo 
-    if (current1) {
-        linkedListResult.add(current1.data);
-    } 
-    if (current2) {
-        linkedListResult.add(current2.data);
-    } 
-
-    return linkedListResult.print();
-
-}
+test("mergeAndSort should be expected", () => {
+    expect(mergeAndSort(linkedList, linkedList2)).toEqual("1 => 2 => 3 => 4 => 5 => 6 => 20 => X");
+});
 
 
-module.exports = mergeAndSort;
+
+
+

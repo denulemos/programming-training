@@ -40,20 +40,6 @@ const hash = (key, size) => {
 
 }
 
-const hashTable = new HashTable();
-hashTable.insert('Gandalf', 'moon');
-hashTable.insert('John', 'sun');
-hashTable.insert('Tyrion', 'earth');
-hashTable.insert('Sansa', 'water');
-hashTable.insert('Arya', 'fire');
-hashTable.insert('Bran', 'air');
-
-hashTable.remove('John');
-
-console.log(hashTable.search('Gandalf'));
-
-console.log(hashTable);
-
 // --------- OTRA SOLUCION POSIBLE ------------
 
 class HashTableAlternative {
@@ -118,10 +104,5 @@ class HashTableAlternative {
     }
 }
 
-const newHash = new HashTableAlternative(20);
-newHash.set('Gandalf', 'moon');
-newHash.set('John', 'sun');
-newHash.get('John'); // sun
-console.log(newHash.keys()); // ['Gandalf', 'John']
 
-
+module.exports = {HashTable, HashTableAlternative};
