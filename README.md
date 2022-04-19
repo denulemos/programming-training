@@ -885,6 +885,24 @@ Dado un String de varias palabras, voltearlas.
 * Input: `Hola Mundo`
 * Output: `Mundo Hola`
 
+### Ejercicio 96
+
+¿En que orden se va a ejecutar el codigo escrito? (Ver ejer96.js para ver la respuesta y el código)
+
+Con SetIntervals y setTimeouts
+
+### Ejercicio 97
+
+¿En que orden se va a ejecutar el codigo escrito? (Ver ejer97.js para ver la respuesta y el código)
+
+Con llamadas a servicios.
+
+### Ejercicio 98
+
+¿En que orden se va a ejecutar el codigo escrito? (Ver ejer98.js para ver la respuesta y el código)
+
+Con promises, perfecto para Micro y macrotasks examples. 
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
