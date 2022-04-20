@@ -903,6 +903,19 @@ Con llamadas a servicios.
 
 Con promises, perfecto para Micro y macrotasks examples. 
 
+### Ejercicio 99
+
+¿Que se va a imprimir en ese codigo? (Ver ejer99.js para ver la respuesta y el codigo)
+
+Perfecto para entender objetos.
+
+### Ejercicio 100
+
+Escribir una funcion que, dada una lista de ciudades, imprima las primeras 5 ciudades mas repetidas por orden de repeticiones
+
+* Input: `['italy', 'bs as', 'denu', 'italy', 'italy', 'bs as']`
+* Output: `Italy, bs as, denu` // With more cities  
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
