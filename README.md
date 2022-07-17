@@ -906,7 +906,6 @@ Con promises, perfecto para Micro y macrotasks examples.
 ### Ejercicio 99
 
 ¿Que se va a imprimir en ese codigo? (Ver ejer99.js para ver la respuesta y el codigo)
-
 Perfecto para entender objetos.
 
 ### Ejercicio 100
@@ -915,6 +914,15 @@ Escribir una funcion que, dada una lista de ciudades, imprima las primeras 5 ciu
 
 * Input: `['italy', 'bs as', 'denu', 'italy', 'italy', 'bs as']`
 * Output: `Italy, bs as, denu` // With more cities  
+
+### Ejercicio 101
+
+Escribir una funcion que elimine todas las cookies de una pagina.
+
+### Ejercicio 102
+
+Escribir una funcion que genere un valor hex random.
+
 
 # Creditos / Agradecimientos / Fuentes
 
