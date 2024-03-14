@@ -923,6 +923,18 @@ Escribir una funcion que elimine todas las cookies de una pagina.
 
 Escribir una funcion que genere un valor hex random.
 
+### Ejercicio 103
+
+Crea una función en JavaScript que resuelva el problema de las Torres de Hanoi para un número dado de discos
+
+### Ejercicio 104
+
+Desarrolla un algoritmo que resuelva un tablero de Sudoku utilizando técnicas de backtracking o alguna otra estrategia de resolución de problemas.
+
+### Ejercicio 105
+
+Genera un laberinto aleatorio y crea un algoritmo para encontrar la salida del laberinto utilizando un algoritmo de búsqueda como BFS (Breadth-First Search) o DFS (Depth-First Search).
+
 
 # Creditos / Agradecimientos / Fuentes
 
