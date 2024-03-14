@@ -1,3 +1,13 @@
+/*
+    Dado un String comprobar si es un palindromo o no (se leen igual del derecho y del revés), por ejemplo Bob, Pop, etc... No tener en cuenta espacios ni simbolos.
+
+    Input: "otto"
+    Output: true
+    Posee dos soluciones. Una validada con metodos de JS y otro con manejos de datos.
+
+    Pueden venir strings con todo tipo de caracteres y espacios. Un caso de uso quedo sin funcionar, a corregir.
+*/
+
 const isPalindromo = (word) => {
 
     const inverted = word
