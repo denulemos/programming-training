@@ -935,6 +935,10 @@ Desarrolla un algoritmo que resuelva un tablero de Sudoku utilizando técnicas d
 
 Genera un laberinto aleatorio y crea un algoritmo para encontrar la salida del laberinto utilizando un algoritmo de búsqueda como BFS (Breadth-First Search) o DFS (Depth-First Search).
 
+### Ejercicio 106 (Freecodecamp)
+
+Se tiene una funcion que recibe 2 o mas arrays. La idea es devolver un Array que solo obtenga los repetidos entre cada uno de los Array. Es decir, si recibo [1,2,3][5,3,1][7,5,3] devolver un array que contenga los valores [1,3].
+
 
 # Creditos / Agradecimientos / Fuentes
 
