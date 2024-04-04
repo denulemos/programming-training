@@ -12,7 +12,9 @@ En este repositorio encontrarás diversos ejercicios de logica resueltos con Jav
 
 Instrucciones para Tests dentro de la carpeta `Tests`
 
-## Ejercicios
+---
+
+# Ejercicios
 
 El orden no tiene ninguna razon en especifico.
 
@@ -937,7 +939,43 @@ Genera un laberinto aleatorio y crea un algoritmo para encontrar la salida del l
 
 ### Ejercicio 106 (Freecodecamp)
 
-Se tiene una funcion que recibe 2 o mas arrays. La idea es devolver un Array que solo obtenga los repetidos entre cada uno de los Array. Es decir, si recibo [1,2,3][5,3,1][7,5,3] devolver un array que contenga los valores [1,3].
+Se tiene una funcion que recibe 2 o mas arrays. La idea es devolver un Array que solo obtenga los repetidos entre cada uno de los Array.
+
+* Input: [1,2,3][5,3,1][7,5,3] 
+* Output: [1,3]
+
+### Ejercicio 107 (Freecodecamp)
+
+Comparar y actualizar el inventario almacenado en una matriz 2D contra una segunda matriz 2D de una entrega nueva. Actualizar las cantidades de los elementos del inventario existentes actualmente (en arr1). Si no se puede encontrar un elemento, añadir el nuevo elemento y cantidad a la matriz de inventario. La matriz de inventario devuelta debe estar en orden alfabético por elemento.
+
+* Input:
+[[21, "Bowling Ball"], 
+[2, "Dirty Sock"], 
+[1, "Hair Pin"], 
+[5, "Microphone"]]
+
+[[2, "Hair Pin"], 
+[3, "Half-Eaten Apple"], 
+[67, "Bowling Ball"], 
+[7, "Toothpaste"]]
+
+* Output:
+
+[[88, "Bowling Ball"], 
+[2, "Dirty Sock"], 
+[3, "Hair Pin"], 
+[3, "Half-Eaten Apple"], 
+[5, "Microphone"], 
+[7, "Toothpaste"]].
+
+### Ejercicio 108 (Freecodecamp)
+
+Devuelve el número total de permutaciones de la cadena proporcionada que no tienen letras consecutivas repetidas. Supón que todos los caracteres en la cadena proporcionada son únicos.
+
+Por ejemplo, para la cadena "aab", debería retornar 2 porque tiene 6 permutaciones totales (aab, aab, aba, aba, baa, baa), pero solo 2 de ellas (aba y aba) no tienen la misma letra (en este caso "a") repitiéndose.
+
+* Input: `aab`
+* Output: `2` 
 
 
 # Creditos / Agradecimientos / Fuentes

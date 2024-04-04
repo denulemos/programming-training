@@ -36,8 +36,6 @@ const isPalindromoDataStructure = (word) => {
             final--;
         }
 
-
-
         console.log(word[final], word[result]);
         // lo pasamos a mayuscula ya que debemos soportar a todos los caracteres tanto min como mayus
         if (word.toUpperCase()[result] !== word.toUpperCase()[final]) {
