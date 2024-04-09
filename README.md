@@ -989,6 +989,13 @@ La suma debe hacerse entre 4 de 5 elementos.
 1 + 3 + 5 + 7 = 16 (Minimo)
 3 + 5 + 7 + 9 = 24 (Maximo)
 
+### Ejercicio 110 (Hackerrank) - Time Conversion
+
+Se recibe un String con una hora en particular en formato AM/PM, devolver un String con esa misma hora convertida a 24hs, teniendo en cuenta que 12 AM son 00 en el formato de 24 hs.
+
+* Input: `01:00:00PM`
+* Output: `13:00:00`
+
 
 # Creditos / Agradecimientos / Fuentes
 
