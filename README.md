@@ -8,10 +8,6 @@ En este repositorio encontrarás diversos ejercicios de logica resueltos con Jav
 
 ¿Alguna duda? Me podés encontrar en Twitter como `@DenoKennedy`
 
-## Testing
-
-Instrucciones para Tests dentro de la carpeta `Tests`
-
 ---
 
 # Ejercicios
@@ -75,8 +71,7 @@ Dibujar un cuadrado hueco con astericos en consola con el tamaño de lados que d
 * Output:
   
 ```javascript
-  * ** *
-  *    *
+  * ** *   
   *    * 
   *    * 
   * ** * 

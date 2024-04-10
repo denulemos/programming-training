@@ -1,3 +1,12 @@
+/*
+Dado un String, darle la vuelta, invertir el orden de sus caracteres. No se pueden usar metodos del lenguaje, solo estructuras de control.
+
+Hay dos soluciones. La primera sin el uso de pila y la segunda con, dependiendo de que tipo de solucion estamos buscando.
+
+* Input: `"hola"`
+* Output: `aloh`
+*/
+
 const flipWord = (word) => {
 
     // word.split("").reverse().join(''); -- Solucion en una sola linea
@@ -12,6 +21,9 @@ const flipWord = (word) => {
 
     return inverted;
 }
+
+console.log(flipWord("hola")); // aloh
+console.log(flipWord("mundo")); // odnum
 
 
 // Solucion con una pila
@@ -38,4 +50,6 @@ const flipWordStack = (word) => {
     return inverted;
 }
 
-module.exports = {flipWord, flipWordStack};
+console.log(flipWordStack("hola")); // aloh
+console.log(flipWordStack("mundo")); // odnum
+
