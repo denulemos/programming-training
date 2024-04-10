@@ -1,32 +1,34 @@
 /*
-    Dado un String comprobar si es un palindromo o no (se leen igual del derecho y del revés), por ejemplo Bob, Pop, etc... No tener en cuenta espacios ni simbolos.
 
-    Input: "otto"
-    Output: true
-    Posee dos soluciones. Una validada con metodos de JS y otro con manejos de datos.
+Dado un String comprobar si es un palindromo o no (se leen igual del derecho y del revés), por ejemplo Bob, Pop, etc...
+No tener en cuenta espacios ni simbolos.
 
-    Pueden venir strings con todo tipo de caracteres y espacios. Un caso de uso quedo sin funcionar, a corregir.
+* Input: `"otto"`
+* Output: `true`
+
+Posee dos soluciones. Una validada con metodos de JS y otro con manejos de datos.
+
 */
 
-const isPalindromo = (word) => {
-
-    const inverted = word
-    // Separamos cada letra de la palabra en un Array
-    .split('')
-    // Volteamos el array
-    .reverse()
-    // Unimos el array en un texto de nuevo
-    .join('')
-
-    const checkIfIsPalindromo = inverted === word;
-
-    return checkIfIsPalindromo;
+const esPalindromo = (texto) => {
+    // split() => Separa la palabra letra por letra en un array
+    // reverse() => Invierte el array
+    // join() => Une el array en un string
+    return texto.toUpperCase() === texto.toUpperCase().split('').reverse().join('');
 }
 
-const isPalindromoDataStructure = (word) => {
+console.log(esPalindromo("hola")) // false
+console.log(esPalindromo("otto")) // true
 
-    let result = 0, wordSize = word.length, final = wordSize - 1;
 
+const esPalindromo2 = (word) => {
+
+    let result = 0; 
+    let wordSize = word.length; 
+    // restamos 1 ya que los arrays empiezan en 0
+    let final = wordSize - 1;
+
+    // recorremos la palabra
     while (result <= wordSize) {
         // ignoramos a los caracteres especiales
         while (result<final && !isLetter(word[result])) {
@@ -35,8 +37,6 @@ const isPalindromoDataStructure = (word) => {
         while (result<final && !isLetter(word[final])) {
             final--;
         }
-
-        console.log(word[final], word[result]);
         // lo pasamos a mayuscula ya que debemos soportar a todos los caracteres tanto min como mayus
         if (word.toUpperCase()[result] !== word.toUpperCase()[final]) {
             // Si ya no coinciden los caracteres, la palabra no es palindromo
@@ -55,4 +55,7 @@ const isLetter = (char) => {
     return char.match(/^[0-9a-zA-Z]+$/);
 }
 
-module.exports = { isPalindromo, isPalindromoDataStructure };
+console.log(esPalindromo2("otto")); // true
+console.log(esPalindromo2("hola")); // false
+
+module.exports = { isPalindromo, esPalindromo2 };

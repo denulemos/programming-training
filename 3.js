@@ -1,26 +1,34 @@
-const searchWord = (word, phrase) => {
+/*
+Dado un String y una frase decir cuantas veces se repite la palabra en esa frase dada.
 
-    // Limpiamos la frase, la ponemos en minuscula y retiramos las comas
-    const cleanPhrase = phrase.toLowerCase().replace(',', '');
-    // Existe la palabra buscada dentro de la frase?
-    const wordFound = cleanPhrase.includes(word);
+* Input: `("Hola", "Hola cómo andas?")`
+* Output: `1`
+*/
 
-    if (wordFound){
-        // Armamos un array con todas las palabras de la frase
-        const words = cleanPhrase.split(" ");
-        var map = {};
-        
-        // Iteramos por palabra y contamos sus ocurrencias
-        words.forEach(wordIterated => {
-            map[wordIterated] ? map[wordIterated]++ : map[wordIterated] = 1;
-        });
-
-        const result = map[word];
-        return result;
-    }
-    
-    return 0;
-
+const contarPalabras = (palabra, frase) => {
+    // Se divide la frase en palabras y se recorre para contar cuantas veces se repite la palabra
+    let palabras = frase.split(" ");
+    let contador = 0;
+    palabras.forEach(palabraFrase => {
+        if(palabraFrase === palabra){
+            contador++;
+        }
+    });
+    return contador;
 }
 
-module.exports = searchWord;
+console.log(contarPalabras("Hola", "Hola cómo andas?")) // 1
+console.log(contarPalabras("Hola", "Hola cómo andas? Hola")) // 2
+console.log(contarPalabras("Hola", "Hola cómo andas? Hola Hola")) // 3
+
+const contarPalabras2 = (palabra, frase) => {
+    // Se divide la frase en palabras y se filtra por la palabra que se quiere contar
+    return frase.split(" ").filter(palabraFrase => palabraFrase === palabra).length;
+}
+
+console.log(contarPalabras2("Hola", "Hola cómo andas?")) // 1
+console.log(contarPalabras2("Hola", "Hola cómo andas? Hola")) // 2
+console.log(contarPalabras2("Hola", "Hola cómo andas? Hola Hola")) // 3
+
+module.exports = {contarPalabras, contarPalabras2};
+
