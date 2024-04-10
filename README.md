@@ -977,6 +977,25 @@ Por ejemplo, para la cadena "aab", debería retornar 2 porque tiene 6 permutacio
 * Input: `aab`
 * Output: `2` 
 
+### Ejercicio 109 (Hackerrank)
+
+Dados cinco enteros positivos, encuentre los valores mínimo y máximo que pueden calcularse sumando exactamente cuatro de los cinco enteros. A continuación, imprima los respectivos valores mínimo y máximo como una sola línea de dos enteros largos separados por espacios.
+
+La suma debe hacerse entre 4 de 5 elementos.
+
+* Input: `[1,3,5,7,9]`
+* Output: `[16 24]`
+
+1 + 3 + 5 + 7 = 16 (Minimo)
+3 + 5 + 7 + 9 = 24 (Maximo)
+
+### Ejercicio 110 (Hackerrank) - Time Conversion
+
+Se recibe un String con una hora en particular en formato AM/PM, devolver un String con esa misma hora convertida a 24hs, teniendo en cuenta que 12 AM son 00 en el formato de 24 hs.
+
+* Input: `01:00:00PM`
+* Output: `13:00:00`
+
 
 # Creditos / Agradecimientos / Fuentes
 
