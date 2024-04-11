@@ -991,6 +991,13 @@ Se recibe un String con una hora en particular en formato AM/PM, devolver un Str
 * Input: `01:00:00PM`
 * Output: `13:00:00`
 
+### Ejercicio 111 
+
+Dado un String, comprobar si todos los caracteres son unicos o no
+
+* Input: `abcde` y `abcded`
+* Output: `true` - `false`
+
 
 # Creditos / Agradecimientos / Fuentes
 
