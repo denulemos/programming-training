@@ -553,14 +553,14 @@ desde N hasta 2. Si N es impar imprimir un mensaje de error.
 * Input: `10`
 * Output: `28` (10 + 8 + 6 + 4 + 2)
 
-### Ejercicio 62 (TODO Test)
+### Ejercicio 62
 
 Dados dos números enteros, A y B, calcular su potencia (AB) en forma iterativa y recursiva.
 
 * Input: `2 2`
 * Output: `4`
 
-### Ejercicio 63 (TODO Test)
+### Ejercicio 63 
 
 Cargar una mahuktriz de nxn elementos enteros. Mostrarla. Calcular la suma de los elementos de la diagonal principal en forma iterativa y recursiva.
 
@@ -640,7 +640,7 @@ Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 * Output:
 `[-124, -40, 0, 7, 21, 100, 500]`
 
-### Ejercicio 71 (TODO Test)
+### Ejercicio 71 ( )
 
 Implementar el algoritmo de bubbleSort en tu lenguaje de programacion preferido.
 
@@ -669,7 +669,7 @@ Se recomienda solucionar con HashTables para no complejizar su solucion (No iter
 * Output:
 `[{hola, 2}, {como, 1}, {estas, 1}]`
 
-### Ejercicio 74 (TODO Test)
+### Ejercicio 74 
 
 Se nos da un array de numeros positivos, desde 1 a n. Todos los numeros estan presentes menos uno, y ese numero faltante es el que debemos encontrar.
 El array NO esta ordenado. NO sirve la solucion que recorre todo el array buscando el numero faltante.
@@ -679,7 +679,7 @@ El array NO esta ordenado. NO sirve la solucion que recorre todo el array buscan
 * Output:
 `6`
 
-### Ejercicio 75 (TODO Test)
+### Ejercicio 75 ( )
 
 Se nos da un array de numeros y un valor. Determinar si la suma de dos numeros del mismo dan ese valor. Si existe, devolver true, si no, false
 
@@ -761,7 +761,7 @@ function arrayTimes(n) {
 }
 ```
 
-### Ejercicio 79 (TODO Test)
+### Ejercicio 79 ( )
 
 Dados dos array, devolver true o false si comparten items en común
 
@@ -770,12 +770,12 @@ Dados dos array, devolver true o false si comparten items en común
 
 Tratar de NO usar los metodos nativos de JS que facilitan esto.
 
-### Ejercicio 80 (TODO Test)
+### Ejercicio 80 ( )
 
 Implementar las funciones basicas (y nativas, agregar, quitar, etc..) de un Array en tu lenguaje preferido de programacion.
 Tambien con clases.
 
-### Ejercicio 81 (TODO Test)
+### Ejercicio 81 ( )
 
 Se nos dan dos listas ya ordenadas. Se debe devolver otra lista con los elementos de ambas listas pero ordenadas.
 
@@ -787,7 +787,7 @@ Se nos dan dos listas ya ordenadas. Se debe devolver otra lista con los elemento
 
 `[3,4,6,8,9,10,11]`
 
-### Ejercicio 82 (TODO Test)
+### Ejercicio 82 ( )
 
 Dado un array, devolver el elemento que mas se repite (y si ninguno se repite, devolver undefined)
 
@@ -799,36 +799,36 @@ Dado un array, devolver el elemento que mas se repite (y si ninguno se repite, d
 
 `2`
 
-### Ejercicio 83 (TODO Test)
+### Ejercicio 83 ( )
 
 Implementar un Double Linked List en tu lenguaje favorito (Double es porque posee dos punteros, uno al siguiente nodo y otro al anterior)
 
-### Ejercicio 84 (TODO Test)
+### Ejercicio 84 ( )
 
 Voltear un LinkedList
 
 * Input: `[1 => 2 => 3]`
 * Output: `[3 => 2 => 1]`
 
-### Ejercicio 85 (TODO Test)
+### Ejercicio 85 ( )
 
 Encontrar el numero de fibonacci de un numero dado usando ahora recursion.
 
 * Input: `3`
 * Output: `2` 0 + 1 + 1 = 2
 
-### Ejercicio 86 (TODO Test)
+### Ejercicio 86 ( )
 
 Imprimir una serie de numeros hasta el numero pasado por parametro pero usando recursion.
 
-### Ejercicio 87 (TODO Test)
+### Ejercicio 87 ( )
 
 Contar los digitos de un numero usando recursion.
 
 * Input: `33`
 * Output: `2`
 
-### Ejercicio 88 (TODO Test)
+### Ejercicio 88 ( )
 
 Sumar todos los digitos del numero pasado por parametro usando recursion.
 
@@ -842,14 +842,14 @@ Sumar el primer numero por parametros n veces por si mismo. Resolver con recursi
 * Input: `(8, 4)`
 * Output: `8` 32
 
-### Ejercicio 90 (TODO Test)
+### Ejercicio 90 ( )
 
 Dados 2 Binary Tree, chequear si son iguales
 
 * Input: `(8, 4)`
 * Output: `8` 32
 
-### Ejercicio 91 (TODO Test)
+### Ejercicio 91 ( )
 
 Implementar una cola en tu lenguaje de programacion preferido
 
@@ -860,7 +860,7 @@ Dado un array de numeros y un numero, devolver true si la suma de alguno de los 
 * Input: `[5,7,1,2,8,4,3]`
 * Output: `true` => 7 + 3 y 2 + 8
 
-### Ejercicio 93 (TODO Test)
+### Ejercicio 93 ( )
 
 Dado un Binary Tree, resolver si es un Binary Search Tree Valido (para que lo sea, se debe cumplir la regla de que a la derecha debe ser mayor y la izquierda menor)
 
@@ -875,7 +875,7 @@ Se recomienda usar recursion.
 * Input: `"holadenu", ["hola", "denu", "ho", "la]`
 * Output: "Este String puede ser segmentado"
 
-### Ejercicio 95 (TODO Test)
+### Ejercicio 95 ( )
 
 Dado un String de varias palabras, voltearlas.
 
