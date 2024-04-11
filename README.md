@@ -998,6 +998,13 @@ Dado un String, comprobar si todos los caracteres son unicos o no
 * Input: `abcde` y `abcded`
 * Output: `true` - `false`
 
+### Ejercicio 112
+
+Dado un array de numeros enteros y un target, devolver los indices de dos numeros para que la suma de ambos sea igual al target. Asumir solo una solucion.
+
+* Input: `nums=[9,2,5,6] target= 7`
+* Output: `[1,2]` nums[1] + nums[2] = 7 (2 + 5)
+
 
 # Creditos / Agradecimientos / Fuentes
 
