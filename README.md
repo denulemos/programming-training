@@ -1005,6 +1005,15 @@ Dado un array de numeros enteros y un target, devolver los indices de dos numero
 * Input: `nums=[9,2,5,6] target= 7`
 * Output: `[1,2]` nums[1] + nums[2] = 7 (2 + 5)
 
+### Ejercicio 113
+
+Un anagrama es una palabra creada a partir de la reordenacion de las letras de otra palabra. Por ejemplo, saco - caso. Dado un array de Strings, devolver los anagramas agrupados. No importa el orden
+
+* Input: words= `["saco", "arresto", "programa", "rastreo", "caso"]`
+* Output: `[["saco", "caso"], ["arresto", "rastreo"], ["programa"]]`
+
+Tener en cuenta que la respuesta es un array de arrays, donde dentro se encuentra el par que es anagrama. Si hay una palabra que no posee su anagrama, queda solo. 
+
 
 # Creditos / Agradecimientos / Fuentes
 
