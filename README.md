@@ -1247,6 +1247,32 @@ Un anagrama es una palabra creada a partir de la reordenacion de las letras de o
 
 Tener en cuenta que la respuesta es un array de arrays, donde dentro se encuentra el par que es anagrama. Si hay una palabra que no posee su anagrama, queda solo. 
 
+### Ejercicio 114
+
+[Ejercicio resuelto](./114.js)
+
+Dada una matriz, escribir un algoritmo para establecer todos los elementos de la fila y la columna correspondientes a 0 si un elemento de la matriz es 0.
+
+* Input: 
+
+```
+[
+  [1, 2, 3],
+  [4, 0, 6],
+  [7, 8, 9]
+]
+```
+
+* Output: (Columna 2 y fila 2 son todos ceros por el cero del medio)
+
+```
+[
+  [1, 0, 3],
+  [0, 0, 0],
+  [7, 0, 9]
+]
+```
+
 
 # Creditos / Agradecimientos / Fuentes
 
