@@ -5,8 +5,6 @@ const print = () => {
     console.log(a, b);
 }
 
-
-
 console.log(print()); // [ 1, 2 ] [ 1, 2 ]
 
 console.log(context()); 

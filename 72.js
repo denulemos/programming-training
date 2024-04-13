@@ -104,5 +104,3 @@ class HashTableAlternative {
     }
 }
 
-
-module.exports = {HashTable, HashTableAlternative};
