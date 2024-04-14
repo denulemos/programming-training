@@ -1273,6 +1273,16 @@ Dada una matriz, escribir un algoritmo para establecer todos los elementos de la
 ]
 ```
 
+### Ejercicio 115
+
+[Ejercicio resuelto](./115.js)
+
+Escribir un algoritmo para eliminar los elementos duplicados de una lista enlazada
+
+* Input: 1>2>2>3>4>1
+* Output: 1>2>3>4
+
+
 
 # Creditos / Agradecimientos / Fuentes
 
