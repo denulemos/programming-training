@@ -1029,7 +1029,7 @@ Dados 2 Binary Tree, chequear si son iguales
 
 ### Ejercicio 91 
 
-[Ejercicio resuelto](./91.js)
+[Ejercicio resuelto](./91-Queue.js)
 
 Implementar una cola (Queue) en tu lenguaje de programacion preferido - Con nodos y arrays
 
@@ -1052,7 +1052,7 @@ Se debe usar Recursion y un Inorder Transversal para resolver esto.
 
 ### Ejercicio 94
 
-[Ejercicio resuelto](./94.js)
+[Ejercicio resuelto](./94-Recursion.js)
 
 Dada una palabra y un diccionario de palabras, definir si esta palabra se puede separar en dos para formar dos palabras del diccionario.
 
@@ -1293,7 +1293,7 @@ Escribir un algoritmo para combinar dos listas enlazadas simples ordenadas. El r
 
 ### Ejercicio 117
 
-[Ejercicio resuelto](./117.js)
+[Ejercicio resuelto](./117-LinkedList.js)
 
 Dada una lista enlazada y un numero N, devolver el nodo N empezando por el final y desde cero.
 
@@ -1302,9 +1302,36 @@ Dada una lista enlazada y un numero N, devolver el nodo N empezando por el final
 
 ### Ejercicio 118
 
-[Ejercicio resuelto](./118.js)
+[Ejercicio resuelto](./118-Stack.js)
 
 Implementar una pila (stack) en tu lenguaje de programacion preferido - Con nodos
+
+### Ejercicio 119
+
+[Ejercicio resuelto](./119-Stack.js)
+
+Dado un String que solo contiene los caracteres `() [] y {}` implementar un algoritmo para determinar si es valido
+
+* Input: `([]){} ({)}`
+* Output: `true false` (Ya que la llave cierra por fuera del parentesis)
+  
+### Ejercicio 120
+
+[Ejercicio resuelto](./120-Stack.js)
+
+Ordenar un stack de forma que los elementos mas pequenios queden arriba de todo del Stack (Pila). Se puede usar un Stack adicional pero no se puede copiar elementos a otra estructura de datos como arrays. 
+
+* Input: `(tope) 5-1-4-2`
+* Output: `(tope) 1-2-4-5`
+
+### Ejercicio 121
+
+[Ejercicio resuelto](./121-Stack.js)
+
+Diseniar un algoritmo que obtenga el valor minimo de un Stack.
+
+* Input: `(tope) 5-1-4-2`
+* Output: `1`
 
 # Creditos / Agradecimientos / Fuentes
 

@@ -10,9 +10,8 @@ class Node {
 }
 
 class Stack {
-
     constructor() {
-        this.top = new Node();
+        this.top = null;
     }
 
     // Agrega un elemento a la cima de la pila

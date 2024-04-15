@@ -64,6 +64,7 @@ class Queue {
 
     // Retorna el primer elemento de la cola sin eliminarlo
     peek() {
+        if (!this.top) return null;
         return this.top;
     }
 

@@ -26,4 +26,3 @@ class SearchTree {
 
 }
 
-module.exports = {Node, SearchTree}
