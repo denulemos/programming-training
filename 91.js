@@ -1,3 +1,4 @@
+// ----------- Implementacion con Arrays -------------------
 class Queue {
     constructor(){
         this.dataStore = [];
@@ -26,5 +27,47 @@ class Queue {
 
     itemExists(element){
         return this.dataStore.indexOf(element) > -1;
+    }
+}
+
+// ----------- Implementacion con Nodos -------------------
+
+class Node {
+    constructor (data, nextNode) {
+        this.data = data;
+        this.next = nextNode;
+    }
+}
+
+class Queue {
+    constructor() {
+        this.top = new Node();
+    }
+
+    // Añade un elemento al final de la cola
+    add(value) {
+        let auxNode = this.top;
+
+        while (auxNode.next !== null) {
+            auxNode = auxNode.next;
+        }
+
+        auxNode.next = new Node(value);
+    }
+
+    // Elimina el primer elemento de la cola y lo devuelve
+    remove() {
+        let aux = this.top;
+        this.top = this.top.next;
+        return aux;
+    }
+
+    // Retorna el primer elemento de la cola sin eliminarlo
+    peek() {
+        return this.top;
+    }
+
+    isEmpty() {
+        return this.top == null;
     }
 }

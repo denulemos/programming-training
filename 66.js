@@ -65,4 +65,3 @@ return result.split("").reverse().join("");
     } 
 }
 
-module.exports = removeDuplicates;

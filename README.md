@@ -1031,7 +1031,7 @@ Dados 2 Binary Tree, chequear si son iguales
 
 [Ejercicio resuelto](./91.js)
 
-Implementar una cola en tu lenguaje de programacion preferido
+Implementar una cola (Queue) en tu lenguaje de programacion preferido - Con nodos y arrays
 
 ### Ejercicio 92
 
@@ -1291,6 +1291,20 @@ Escribir un algoritmo para combinar dos listas enlazadas simples ordenadas. El r
 * Input: 1>2>4>6 2>3>5
 * Output: 1>2>2>3>4>5>6
 
+### Ejercicio 117
+
+[Ejercicio resuelto](./117.js)
+
+Dada una lista enlazada y un numero N, devolver el nodo N empezando por el final y desde cero.
+
+* Input: 1>2>4>6 2
+* Output: 4 (1,2,4)
+
+### Ejercicio 118
+
+[Ejercicio resuelto](./118.js)
+
+Implementar una pila (stack) en tu lenguaje de programacion preferido - Con nodos
 
 # Creditos / Agradecimientos / Fuentes
 
