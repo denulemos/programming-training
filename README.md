@@ -1282,6 +1282,14 @@ Escribir un algoritmo para eliminar los elementos duplicados de una lista enlaza
 * Input: 1>2>2>3>4>1
 * Output: 1>2>3>4
 
+### Ejercicio 116
+
+[Ejercicio resuelto](./116.js)
+
+Escribir un algoritmo para combinar dos listas enlazadas simples ordenadas. El resultado debe ser una unica lista enlazada ordenada.
+
+* Input: 1>2>4>6 2>3>5
+* Output: 1>2>2>3>4>5>6
 
 
 # Creditos / Agradecimientos / Fuentes
