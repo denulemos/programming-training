@@ -1420,6 +1420,12 @@ Dado un array de listas enlazadas, cada una de ellas ordenada de forma ascendent
 * Input: 1>4>5 1>3>4 2>6
 * Output: 1>1>2>3>4>4>5>6
 
+### Ejercicio 130
+
+Armar un diccionario que mediante la funcion isOnDict devuelva si la palabra existe en el diccionario.
+No es una funcion, es una clase.
+
+* Diccionario recibe: ["hola", "como", "estas"] y isOnDict("hola") devuelve true
 
 # Creditos / Agradecimientos / Fuentes
 
