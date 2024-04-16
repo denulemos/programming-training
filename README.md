@@ -1393,6 +1393,11 @@ Dado un arbol, devolver una lista enlazada de los nodos de cada nivel. Si el arb
           9>20
           15>7
 
+### Ejercicio 126 - Heaps
+
+[Ejercicio resuelto](./126-heaps.js)
+
+Implementar en Javascript un Heap con todos sus metodos correspondientes
 
 
 # Creditos / Agradecimientos / Fuentes
