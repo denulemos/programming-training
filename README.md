@@ -1393,12 +1393,7 @@ Dado un arbol, devolver una lista enlazada de los nodos de cada nivel. Si el arb
           9>20
           15>7
 
-### Ejercicio 126 - Recursividad
 
-Implementar un metodo para devolver todos los subconjuntos de un conjunto de enteros
-
-* Input: `[1,2,3]`
-* Output: `[[], [1], [2], [1,2], [3], [1,3], [2,3], [1,2,3]]`
 
 # Creditos / Agradecimientos / Fuentes
 
