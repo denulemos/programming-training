@@ -1399,6 +1399,27 @@ Dado un arbol, devolver una lista enlazada de los nodos de cada nivel. Si el arb
 
 Implementar en Javascript un Heap con todos sus metodos correspondientes
 
+### Ejercicio 127 (Hackerrank) - Arrays: Left Rotation
+
+Una operación de rotación hacia la izquierda en un arreglo desplaza cada uno de los elementos del arreglo una unidad hacia la izquierda. Por ejemplo, si se realizan 2 rotaciones hacia la izquierda en el arreglo 12345, entonces el arreglo se convertiría en 34512. Observa que el elemento de índice más bajo se mueve al índice más alto en una rotación. Esto se llama un arreglo circular.
+
+Dado un arreglo de enteros y un número, realiza rotaciones hacia la izquierda en el arreglo. Retorna el arreglo actualizado para ser impreso como una sola línea de enteros separados por espacios.
+
+* Input: `5 4 1 2 3 - 2`
+* Output: `12354`
+
+### Ejercicio 128 (Hackerrank) - New Year Chaos
+
+Es el Día de Año Nuevo y la gente está en fila para el viaje en la montaña rusa de Wonderland. Cada persona lleva una pegatina que indica su posición inicial en la cola, desde 1 hasta n. Cualquier persona puede sobornar a la persona directamente delante de ellos para intercambiar posiciones, pero todavía llevan su pegatina original. Una persona puede sobornar a lo sumo a otras dos.
+Determina el número mínimo de sobornos que tuvieron lugar para llegar a un orden de cola dado. Imprime el número de sobornos, o, si alguien ha sobornado a más de dos personas, imprime "Too chaotic".
+
+### Ejercicio 129 
+
+Dado un array de listas enlazadas, cada una de ellas ordenada de forma ascendente, combinarlas para devolver una unica lista enlazada ordenada.
+
+* Input: 1>4>5 1>3>4 2>6
+* Output: 1>1>2>3>4>4>5>6
+
 
 # Creditos / Agradecimientos / Fuentes
 
