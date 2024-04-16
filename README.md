@@ -1018,9 +1018,9 @@ Sumar el primer numero por parametros n veces por si mismo. Resolver con recursi
 * Input: `(8, 4)`
 * Output: `8` 32
 
-### Ejercicio 90 
+### Ejercicio 90 (Arboles Binarios)
 
-[Ejercicio resuelto](./90.js)
+[Ejercicio resuelto](./90-ArbolBinario.js)
 
 Dados 2 Binary Tree, chequear si son iguales
 
@@ -1332,6 +1332,73 @@ Diseniar un algoritmo que obtenga el valor minimo de un Stack.
 
 * Input: `(tope) 5-1-4-2`
 * Output: `1`
+
+### Ejercicio 122 (Hackerrank) - Compare Triplets
+
+[Ejercicio resuelto](./122.js)
+
+Alice y Bob crearon cada uno un problema para HackerRank. Un revisor califica los dos desafíos y otorga puntos en una escala del 1 al 100 para tres categorías: claridad del problema, originalidad y dificultad.
+
+La calificación para el desafío de Alice es el triplete a = (a[0], a[1], a[2]), y la calificación para el desafío de Bob es el triplete b = (b[0], b[1], b [2]).
+
+La tarea es encontrar sus puntos de comparación comparando a[0] con b[0], a[1] con b[1] y a[2] con b[2].
+
+Si a[i] > b[i], entonces Alice recibe 1 punto.
+Si a[i] < b[i], entonces Bob recibe 1 punto.
+Si a[i] = b[i], entonces ninguna persona recibe un punto.
+Los puntos de comparación son los puntos totales que obtuvo una persona.
+
+Dados a y b, determine sus respectivos puntos de comparación.
+
+* Input: `a = [5, 6, 7] b = [3, 6, 10]`
+* Output: `[1, 1]` (Alice 1 punto, Bob 1 punto)
+
+### Ejercicio 123 - Arboles
+
+[Ejercicio resuelto](./123-ArbolBinario.js)
+
+Implementacion de un arbol binario en Javascript junto con sus busquedas con llamadas recursivas.
+
+### Ejercicio 124 - Arboles Binarios
+
+[Ejercicio resuelto](./124-ArbolBinario.js)
+
+Dada la raiz de un arbol binario, devolver el arbol invertido.
+
+* Input:  4
+        /   \
+       2     7
+      / \   / \
+     1   3 6   9
+
+* Output: 4
+        /   \
+       7     2
+      / \   / \
+    9   6 3    1
+
+### Ejercicio 125 - Arboles Binarios
+
+[Ejercicio resuelto](./125-ArbolBinario.js)
+
+Dado un arbol, devolver una lista enlazada de los nodos de cada nivel. Si el arbol tiene N niveles se devuelven N listas enlazadas
+
+* Input:  3
+        /   \
+       9     20
+            /  \
+           15   7
+
+* Output: 3 
+          9>20
+          15>7
+
+### Ejercicio 126 - Recursividad
+
+Implementar un metodo para devolver todos los subconjuntos de un conjunto de enteros
+
+* Input: `[1,2,3]`
+* Output: `[[], [1], [2], [1,2], [3], [1,3], [2,3], [1,2,3]]`
 
 # Creditos / Agradecimientos / Fuentes
 
