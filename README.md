@@ -804,9 +804,9 @@ Implementar LinkedLists y sus respectivas funciones en tu lenguaje de programaci
 
 Implementar hashtables (o diccionarios) con tu lenguaje preferido.
 
-### Ejercicio 73
+### Ejercicio 73 - Hashtable
 
-[Ejercicio resuelto](./73.js)
+[Ejercicio resuelto](./73-Hashtable.js)
 
 Se recibe un texto y se debe devolver cuantas apariciones posee cada palabra del mismo. El mismo puede tener caracteres especiales
 
@@ -1450,11 +1450,26 @@ Se tiene un objeto con nombres y cantidad de llamadas. Devolver un objecto con l
 
 Como agregado al ejercicio anterior, ordenar esta lista por cantidad mayor de llamados. 
 
-### Ejercicio 132
+### Ejercicio 133
 
 [Ejercicio resuelto](./133.js)
 
 Como agregado al ejercicio anterior, agregar una funcion de busqueda por nombre.
+
+### Ejercicio 134 - Closures
+
+[Ejercicio resuelto](./134.js)
+
+Crear una funcion que guarde una palabra secreta que no pueda ser accedida ni cambiada desde fuera de la funcion.
+
+### Ejercicio 135 - Maps
+
+[Ejercicio resuelto](./135-Maps.js)
+
+Dado un array de palabras, devolver la palabra mas repetida de la misma
+
+* Input: ["hola", "como", "estas", "hola", "hola"]
+* Output: "hola 3"
 
 # Creditos / Agradecimientos / Fuentes
 
