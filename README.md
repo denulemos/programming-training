@@ -1471,6 +1471,52 @@ Dado un array de palabras, devolver la palabra mas repetida de la misma
 * Input: ["hola", "como", "estas", "hola", "hola"]
 * Output: "hola 3"
 
+### Ejercicio 136 - Cracking the coding interview
+
+[Ejercicio resuelto](./136.js)
+
+Dado un string, devolver true si el mismo tiene todos caracteres unicos o false si no los tiene.
+
+* Input: "hola" "aaee"
+* Output: true false
+
+### Ejercicio 137 - Rejunte de mini-ejercicios entrevista tecnica Senior
+
+[Ejercicios resueltos](./137.js)
+
+En el archivo se encontraran todas las soluciones a los siguientes mini-problemas:
+
+Suma de todos los números en un arreglo:
+Escribe una función que reciba un arreglo de números y devuelva la suma de todos los números en el arreglo.
+
+Encontrar el número más grande en un arreglo:
+Escribe una función que encuentre el número más grande en un arreglo de números.
+
+Filtrar números pares en un arreglo:
+Escribe una función que reciba un arreglo de números y devuelva un nuevo arreglo que contenga solo los números pares.
+
+Contar la frecuencia de elementos en un arreglo:
+Escribe una función que tome un arreglo como entrada y devuelva un objeto con la frecuencia de cada elemento en el arreglo.
+
+### Ejercicio 138 - Triplet Counting
+
+[Ejercicio resuelto](./138.js)
+
+Imagine que le han dado una serie de números enteros y un número de consulta k. Su tarea es escribir una función que encuentre todos los tripletes en la matriz que suman el número de consulta k
+
+* Input: nums = [1, 2, 3, 4, 5] k = 6
+* Output:  1 - Solo 1,2,3 suman 6
+
+### Ejercicio 139 - Flatten N-Dimensional Array to 1D Array - Stack
+
+[Ejercicio resuelto](./139-Stack.js)
+
+Se le proporciona una matriz N-dimensional (una lista anidada) y su tarea es convertirla en una matriz 1D. La matriz N-dimensional puede tener cualquier cantidad de listas anidadas y cada lista anidada puede contener cualquier cantidad de elementos. Los elementos de las listas anidadas son números enteros. Escriba una función que tome una matriz N-dimensional como entrada y devuelva una matriz 1D
+
+* Input: `[1, [2, 3], [4, [5, 6]], 7]`;
+* Output: `[1, 2, 3, 4, 5, 6, 7]`;
+
+
 # Creditos / Agradecimientos / Fuentes
 
 * Los problemas los saqué en su mayoria del curso de Udemy "Master en Logica de Programacion" de Victor Robles. Recomendadisimo curso y explicacion.
