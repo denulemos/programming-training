@@ -1513,9 +1513,47 @@ Imagine que le han dado una serie de números enteros y un número de consulta k
 
 Se le proporciona una matriz N-dimensional (una lista anidada) y su tarea es convertirla en una matriz 1D. La matriz N-dimensional puede tener cualquier cantidad de listas anidadas y cada lista anidada puede contener cualquier cantidad de elementos. Los elementos de las listas anidadas son números enteros. Escriba una función que tome una matriz N-dimensional como entrada y devuelva una matriz 1D
 
-* Input: `[1, [2, 3], [4, [5, 6]], 7]`;
-* Output: `[1, 2, 3, 4, 5, 6, 7]`;
+* Input: `[1, [2, 3], [4, [5, 6]], 7]`
+* Output: `[1, 2, 3, 4, 5, 6, 7]`
 
+### Ejercicio 140 - Minimum Swaps 2 Hackerrank
+
+[Ejercicio resuelto](./140.js)
+
+Se le proporciona una matriz desordenada que consta de números enteros consecutivos [1, 2, 3, ..., n] sin duplicados. Se le permite intercambiar dos elementos cualesquiera. Encuentre la cantidad mínima de intercambios necesarios para ordenar la matriz en orden ascendente.
+
+* Input: 4312
+* Output: 3
+
+### Ejercicio 141 - 2D Array - DS Hackerrank
+
+Dado un array de 6x6 de dos dimensiones con 16 relojes de arena, devolver la maxima suma de la hora de cada reloj de arena.
+
+[Ejercicio resuelto](./141.js)
+
+* Input: 
+```
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 2 4 4 0
+0 0 0 2 0 0
+0 0 1 2 4 0
+```
+
+* Output: 19
+
+### Ejercicio 142 - Sorting: Bubble Sort - Hackerrank
+
+[Ejercicio resuelto](./142-Bubble.js)
+
+Dada una matriz de números enteros, ordene la matriz en orden ascendente usando el algoritmo Bubble Sort anterior. Una vez ordenado, imprima las siguientes tres líneas:
+
+Array is sorted in numSwaps swaps., dóndees el número de intercambios que tuvieron lugar.
+First Element: firstElement, dóndees el primer elemento de la matriz ordenada.
+Last Element: lastElement, dóndees el último elemento de la matriz ordenada.
+
+Sugerencia: Para completar este desafío, debe agregar una variable que mantenga un recuento actualizado de todos los intercambios que ocurren durante la ejecución
 
 # Creditos / Agradecimientos / Fuentes
 

@@ -7,25 +7,30 @@ Determina el número mínimo de sobornos que tuvieron lugar para llegar a un ord
 Imprime el número de sobornos, o, si alguien ha sobornado a más de dos personas, imprime "Too chaotic".
 */
 
+// Incompleto
+// ir odenando a medida que voy chequeando 
+// loop que siga hasta que ambas listas esten ordenadas
 function minimumBribes(q) {
     let bribes = 0;
+    const sorted = [...q];
+    sorted.sort((a, b) => a - b);
+    const array = [];
 
-    for (let i = q.length - 1; i >= 0; i--) {
-        // Verificamos si la persona en la posición i ha sobrepasado el límite de 2 posiciones
-        if (q[i] - (i + 1) > 2) {
-            console.log("Too chaotic");
-            return;
-        }
-
-        // Contamos el número de sobrepasos que ha tenido la persona en la posición i
-        for (let j = Math.max(0, q[i] - 2); j < i; j++) {
-            if (q[j] > q[i]) {
-                bribes++;
-            }
-        }
-    }
-
-    console.log(bribes);
+//
+   for(let i = 0; i < q.length; i ++) {
+       array.push(q[i] - sorted[i]);
+   }
+   
+   bribes = array.filter(element => element > 0).sort((a, b) => a - b);
+   
+   if (bribes[bribes.length - 1] > 2) {
+       console.log("Too chaotic");
+       return;
+   }
+   
+   
+   console.log(bribes.reduce((acc, element) => acc + element));
+   return;
 }
 
 // Ejemplo de uso
