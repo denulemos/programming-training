@@ -1155,6 +1155,8 @@ Entre scopes hay jerarquia. Primero se busca la variable en el mismo scope local
 
 ### Closures
 
+Fue una forma de trabajar con clases antes de que las mismas fueran puestas en JS de forma "nativa". 
+
 Se tiene un closure cuando una función accede a una variable fuera de su contexto. Una funcion puede acceder y usar valores definidos fuera de su contexto.
 
 ```jsx
@@ -1163,6 +1165,28 @@ function obtenerModulo() {
     let datos = [1,2,3,4,5,6,7,8,9,10,11]
     return datos.filter(item => item % valor === 0) // se usa valor, definido fuera de la funcion
 }
+
+// Simula una clase desde antes de que existiera la misma
+const coche = (function(){
+  let _marca, _velocidad, _puertas; // Marca que esta propiedad es privada (solo se usa dentro), el guion bajo es por convencion
+
+  function setMarca(marca) {
+    _marca = marca;
+    return _marca;
+  }
+
+  function getMarca() {
+    return _marca;
+  }
+
+  return {
+    setMarca,
+    getMarca
+  }
+
+})();
+
+coche.setMarca("pepe");
 ```
 
 ### ¿Que es async, preload y prefetch?
